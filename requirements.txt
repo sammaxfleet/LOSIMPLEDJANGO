@@ -1,5 +1,4 @@
 asgiref==3.7.2
-backports.zoneinfo
 cloudinary==1.33.0
 dj-database-url==2.0.0
 dj3-cloudinary-storage==0.0.6
