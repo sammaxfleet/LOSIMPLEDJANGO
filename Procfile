@@ -1,1 +1,1 @@
-web: gunicorn LOSIMPLEDJANGO.wsgi
+web: gunicorn LoSimple.wsgi
