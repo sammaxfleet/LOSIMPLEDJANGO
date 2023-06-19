@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
-                 'lo-simple-airbnb.herokuapp.com', 'localhost']
+                 'lo-simple-airbnb.herokuapp.com', 'localhost', 'lo-simple-airbnb-17df7fdde095.herokuapp.com']
 
 
 # Application definition
