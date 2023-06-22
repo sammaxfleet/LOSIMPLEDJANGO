@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #efe8e1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.account-container {
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #d9d1d1;
+    border: 2px solid #612641;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #5f233f;
+    font-size: 24px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #5f233f;
+    width: 100%;
+}
+
+.existing-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.existing-account a {
+    color: #5f233f;
+    text-decoration: none;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #612641;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: #612641;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f233f;
+}
+
+button:focus {
+    outline: none;
+}

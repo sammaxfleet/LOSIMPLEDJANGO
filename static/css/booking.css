@@ -1,0 +1,55 @@
+/* booking.css */
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #5f233f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #612641;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.book-card {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 25%;
+    height: 100%;
+    /* Add any additional styles for the image container */
+}
+
+
+/* Add more custom styles as needed */

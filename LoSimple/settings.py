@@ -51,7 +51,10 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'mainapp',
+    'home',
+    'user',
+    'booking',
+
 ]
 
 MIDDLEWARE = [
@@ -70,7 +73,7 @@ ROOT_URLCONF = 'LoSimple.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

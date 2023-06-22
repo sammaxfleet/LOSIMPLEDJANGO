@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
+
+    <h2 style="color: #5f233f; text-align: center;">Sign Up</h2>
+    <hr style="background-color: #5f233f;">
+    <br>
+    <div class="account-container">
+        <p>Already have an account? <a href="{% url 'login' %}" style="color: #5f233f;">Log in</a></p>
+        <div class="form-container">
+            <form method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                    <input type="text" class="form-control" name="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password1" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password2" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

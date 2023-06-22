@@ -1,0 +1,27 @@
+.hotel-container {
+    width: 1124px;
+    height: 438px;
+    display: flex;
+  }
+  
+  .description-container {
+    width: 655px;
+    height: 400px;
+    text-align: center;
+  }
+  
+  .book-button {
+    margin-top: 10px;
+    background-color: #5f233f;
+    color: azure;
+  }
+  
+  .image-container {
+    width: 468px;
+    height: 400px;
+  }
+  
+  hr {
+    color: #5f233f;
+  }
+  

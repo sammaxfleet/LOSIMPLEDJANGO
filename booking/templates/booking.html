@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/book.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/modal.css' %}">
+
+
+  <h2>Book Hotel: {{ hotel.name }}</h2>
+
+  <form id="bookingForm" method="post">
+    {% csrf_token %}
+    <label for="check_in_date">Check-in Date:</label>
+    <input type="date" id="check_in_date" name="check_in_date" required>
+  
+    <label for="check_out_date">Check-out Date:</label>
+    <input type="date" id="check_out_date" name="check_out_date" required>
+  
+    <button id="bookButton" type="button">Book Now</button>
+  </form>
+  
+  <!-- Modal -->
+  <div id="confirmModal" class="modal">
+    <div class="modal-content">
+      <h3>Confirmation</h3>
+      <p>Are you sure you want to book?</p>
+      <div class="modal-buttons">
+        <button id="confirmButton">Confirm</button>
+        <button id="cancelButton">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{% static 'js/modal.js' %}"></script>
+{% endblock %}
