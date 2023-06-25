@@ -2,26 +2,41 @@
     width: 1124px;
     height: 438px;
     display: flex;
-  }
-  
-  .description-container {
+}
+
+.description-container {
     width: 655px;
     height: 400px;
     text-align: center;
-  }
-  
-  .book-button {
+}
+
+.book-button {
     margin-top: 10px;
     background-color: #5f233f;
     color: azure;
-  }
-  
-  .image-container {
+}
+
+.image-container {
     width: 468px;
     height: 400px;
-  }
-  
-  hr {
-    color: #5f233f;
-  }
-  
+}
+
+hr {
+    color: #973c54;
+}
+
+.hotel_name {
+    color: #973c54;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.Hotel_Descrip {
+    font-family: sans-serif, Arial;
+    color: #8AAAE5;
+    font-size: medium;
+
+
+}

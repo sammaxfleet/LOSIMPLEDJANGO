@@ -6,39 +6,44 @@
 
 
 
-  
-
-
-  {% for hotel in hotels %}
 
 
 
-  <div class="hotel-container">
+{% for hotel in hotels %}
+
+
+
+<div class="hotel-container">
     <div class="description-container">
-      <div style="background-color: #b9c9c7; width: 655px; height: 400px;">
-        <div style="height: 350px; align-items: center; text-align: center;">
-          <br><br>
-          <p style="color: #5f233f;">
-            <strong>{{ hotel.name }}</strong>
-          </p>
-          <br>
-          <p style="color: #5f233f;">
-            {{ hotel.description }}
-          </p>
-        </div>
+        <div style="background-color: #FCF6F5; width: 655px; height: 400px;">
+            <div style="height: 350px; align-items: center;">
+                <br><br>
+                <p style="color: #973c54;">
+                <div class="hotel_name">
+                    <strong>{{ hotel.name }}</strong>
+                </div>
+                </p>
+                <br>
+                <p style="color: #973c54;">
+                <div class="Hotel_Descrip">
+                    {{ hotel.description }}
+                </div>
+                </p>
+            </div>
 
-        <div style="height: 50px;">
-         <button class="book-button"> <a  class="book-button" href="{% url 'booking:book_hotel' hotel.id  %}" >Book</a></button>
+            <div style="height: 50px;">
+                <button class="book-button"> <a class="book-button"
+                        href="{% url 'booking:book_hotel' hotel.id  %}">Book</a></button>
+            </div>
         </div>
-      </div>
     </div>
     <div class="image-container">
-      <div style="background-color: #c9b5b4; width: 468px; height: 400px;">
-        <img src="{{ hotel.image.url }}" alt="{{ hotel.name }}" width="100%" height="100%">
-      </div>
+        <div style="background-color: #c9b5b4; width: 468px; height: 400px;">
+            <img src="{{ hotel.image.url }}" alt="{{ hotel.name }}" width="100%" height="100%">
+        </div>
     </div>
-  </div>
-  <hr style="color: #5f233f;">
+</div>
+<hr style="color: #5f233f;">
 {% endfor %}
 
 {% endblock %}
