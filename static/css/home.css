@@ -45,6 +45,16 @@
     margin-top: 100px;
 }
 
+.large-image-container2 {
+    width: 600px;
+    height: 425px;
+    margin-right: 0px;
+    float: left;
+    margin-top: -400px;
+    display: flex;
+    opacity: 0.5;
+}
+
 .smallimg {
     margin-top: 100px;
     max-width: 200px;
