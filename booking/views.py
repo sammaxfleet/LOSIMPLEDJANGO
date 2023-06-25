@@ -26,5 +26,5 @@ def book_hotel(request, hotel_id):
     return render(request, 'booking.html', {'hotel': hotel})
 
 
-# strings add on the end .
-# it went through or it didn't- it couldn't be done please contact us. How are you mangaging if something goes wrong. 
+# strings add on the end.
+# it went through or it didn't- it couldn't be done please contact us. How are you mangaging if something goes wrong.

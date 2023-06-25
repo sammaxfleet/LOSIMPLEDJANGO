@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+
+
+<hr>
+<br>
+<div class="location-container">
+  <div class="map-container">
+    <img  src="{% static 'imgs/10.png' %}" alt="Large Image">
+  </div>
+  <div class="paragraph-container">
+    <div class="paragraph-content">
+      <p>An unassigned link.</p>
+      <p>A second row of text with a <a href="https://google.com">web link</a> <span class="icon">icon</span> inline
+        with text.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
