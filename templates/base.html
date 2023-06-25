@@ -10,15 +10,13 @@
 
 <body>
     <div class="container">
-        <div class="logo">
-            <img src="{% static 'imgs/logo.png' %}" alt="">
-        </div>
+
         <nav>
             <ul>
 
                 <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'booking:hotel_list' %}">Book</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="#">Account</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Contact</a></li>
@@ -42,6 +40,8 @@
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
+
+        <h1 class="title"> LO SIMPLE</h1>
         <main>
             {% block content %}
             <!-- The content of individual app pages will be inserted here -->
