@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/book.css' %}">
+
+
+
+  
+
+
+  {% for hotel in hotels %}
+
+
+
+  <div class="hotel-container">
+    <div class="description-container">
+      <div style="background-color: #b9c9c7; width: 655px; height: 400px;">
+        <div style="height: 350px; align-items: center; text-align: center;">
+          <br><br>
+          <p style="color: #5f233f;">
+            <strong>{{ hotel.name }}</strong>
+          </p>
+          <br>
+          <p style="color: #5f233f;">
+            {{ hotel.description }}
+          </p>
+        </div>
+
+        <div style="height: 50px;">
+         <button class="book-button"> <a  class="book-button" href="{% url 'booking:book_hotel' hotel.id  %}" >Book</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="image-container">
+      <div style="background-color: #c9b5b4; width: 468px; height: 400px;">
+        <img src="{{ hotel.image.url }}" alt="{{ hotel.name }}" width="100%" height="100%">
+      </div>
+    </div>
+  </div>
+  <hr style="color: #5f233f;">
+{% endfor %}
+
+{% endblock %}

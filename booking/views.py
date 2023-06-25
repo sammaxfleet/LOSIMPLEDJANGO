@@ -16,7 +16,7 @@ def book_hotel(request, hotel_id):
     if request.method == 'POST':
         check_in_date = request.POST.get('check_in_date')
         check_out_date = request.POST.get('check_out_date')
-        user = request.user  # Assuming user authentication is implemented
+        user = request.user
         booking = Booking(hotel=hotel, user=user,
                           check_in_date=check_in_date, check_out_date=check_out_date)
         booking.save()
@@ -24,3 +24,7 @@ def book_hotel(request, hotel_id):
         return render(request, 'success.html', {'hotel': hotel, 'booking': booking})
 
     return render(request, 'booking.html', {'hotel': hotel})
+
+
+# strings add on the end .
+# it went through or it didn't- it couldn't be done please contact us. How are you mangaging if something goes wrong. 
