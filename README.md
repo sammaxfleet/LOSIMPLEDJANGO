@@ -1,13 +1,12 @@
-Start getting into the READ ME FILE
-
 Lo Simple
+Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
-It gives the users a preview of what it’s like to stay bringing a touch of peace, simplicity, sunlight & rejuvenation for the viewers experience.
+It gives the users a preview of what it’s like to stay bringing a touch of peace, simplicity, sunlight & rejuvenation to the viewers experience.
 
 It aims at an audience wanting to take a spring/summer break.
-It is in Spain, visitors can learn about the town it’s in on the _about page.
-They can see the reviews & images for the stay. To book the user navigates to the _’book’ page and goes through the booking procedure I’ve designed .
+The property is located in Spain, visitors can learn about the town's to do's on the \*about page..
+They can see the reviews & images for the stay. To book the user navigates to the \_’book’ page and goes through the booking procedure I’ve designed .
 
 A live link to follow to the site is here
 
@@ -93,6 +92,9 @@ The website colours have continuity and the layout from bootstrap. SHOULD HAVE
 
 Epic 9
 As the developer I can create wireframes
+
+Epic 10
+CRUD working for the dataBase & the User.
 
 1. Wireframes set up so we can start creating the website. SHOULD HAVE
 
