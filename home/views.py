@@ -6,4 +6,7 @@ def home(request):
 
 
 def about(request):
+    if request.method == 'POST':
+        reviews = request.POST.get('reviews')
+        print(reviews)
     return render(request, 'about.html')

@@ -31,11 +31,11 @@
         </div>
     </div>
 </div>
-<form>
-
+<form method="POST">
+    {% csrf_token %}
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">REVIEWS</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="reviews">REVIEWS</label>
+        <textarea name="reviews" class="form-control" id="reviews" rows="3"></textarea>
     </div>
     <button class="btn btn-success" type="submit">Send review here</button>
 </form>
