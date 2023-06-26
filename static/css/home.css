@@ -42,7 +42,7 @@
     height: 400px;
     margin-right: 0px;
     float: right;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .large-image-container2 {
@@ -53,6 +53,7 @@
     margin-top: -400px;
     display: flex;
     opacity: 0.5;
+    margin-left: 150px;
 }
 
 .smallimg {
@@ -63,7 +64,8 @@
     width: 200px;
 }
 
-.p1 {
+.p1,
+.list1 {
     color: #973c54;
     font-family: Arial, sans-serif;
     margin-top: 10px;

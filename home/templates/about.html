@@ -3,20 +3,40 @@
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
 
-
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <hr>
 <br>
 <div class="location-container">
-  <div class="map-container">
-    <img  src="{% static 'imgs/10.png' %}" alt="Large Image">
-  </div>
-  <div class="paragraph-container">
-    <div class="paragraph-content">
-      <p>An unassigned link.</p>
-      <p>A second row of text with a <a href="https://google.com">web link</a> <span class="icon">icon</span> inline
-        with text.</p>
+    <div class="map-container">
+        <img src="{% static 'imgs/LOSIMPLEIMG.jpg' %}" alt="Large Image">
     </div>
-  </div>
+    <div class="paragraph-container">
+        <div class="paragraph-content">
+            <h2>About this space</h2>
+            <p>
+                The house is intended to bring together local Mediterranean architecture and minimal contemporary
+                design.
+
+                The L-shape of the house is rendered white and minimal finishes are used through the interior.
+
+                Downstairs, the open plan design is connected by a terrace, giving the space an indoor-outdoor feel.
+
+                Upstairs, 2 bedrooms and a bathroom open onto a private terrace which looks out towards the beach.
+
+            </p>
+            <p>A second row of text with a <a href="https://google.com">web link</a> <span class="icon">icon</span>
+                inline
+                with text.</p>
+        </div>
+    </div>
 </div>
+<form>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">REVIEWS</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button class="btn btn-success" type="submit">Send review here</button>
+</form>
 {% endblock %}
