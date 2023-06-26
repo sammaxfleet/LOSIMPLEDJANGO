@@ -47,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #8AAAE5;
+    color: #973c54;
     text-decoration: none;
     padding: 10px;
     transition: background-color 0.3s;
@@ -89,7 +89,7 @@ main {
 }
 
 .dropdown-content a:hover {
-    background-color: #f9f9f9;
+    background-color: #89CFF0;
 }
 
 
@@ -97,4 +97,8 @@ main {
     margin-left: 500px;
     font-size: 80px;
     color: #973c54;
+}
+
+.socialbuttons {
+    size: large;
 }
