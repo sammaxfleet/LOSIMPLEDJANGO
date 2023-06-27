@@ -4,8 +4,7 @@ from django.db import models
 
 
 class Reviews(models.Model):
-
     text = models.TextField()
 
     def __str__(self):
-        return self.name
+        return self.text

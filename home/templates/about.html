@@ -39,4 +39,9 @@
     </div>
     <button class="btn btn-success" type="submit">Send review here</button>
 </form>
+<br>
+{% for review in reviews %}
+{{review.text}}
+
+{% endfor %}
 {% endblock %}
