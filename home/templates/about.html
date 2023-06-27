@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,8 +14,9 @@
     </div>
     <div class="paragraph-container">
         <div class="paragraph-content">
+
             <h2>About this space</h2>
-            <p>
+            <p class="text1">
                 The house is intended to bring together local Mediterranean architecture and minimal contemporary
                 design.
 
@@ -29,7 +30,8 @@
                 relax,rejuvenate & be in peace.
                 It is located in quiet surroundings in the beautiful city of Barcelona. We describe it as a quiet
                 escape.
-                <br>Room info below <i class="fa-solid fa-arrow-down"></i>
+                <br>
+            <div class="bold">Room info below <i class="fa-solid fa-arrow-down"></i></div>
             </p>
         </div>
     </div>
@@ -42,6 +44,13 @@
     <li>Outside relaxation area</li>
     <li>Big living space</li>
 </ul>
+<p class="iconstars">
+    <i class="fa-regular fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+</p>
 
 <form method="POST">
     {% csrf_token %}

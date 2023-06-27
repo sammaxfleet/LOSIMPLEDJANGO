@@ -64,8 +64,7 @@
     width: 200px;
 }
 
-.p1,
-.list1 {
+.p1 {
     color: #973c54;
     font-family: Arial, sans-serif;
     margin-top: 10px;
@@ -74,15 +73,18 @@
 }
 
 
-.about_button:hover {
+.about_button:hover,
+.book_button:hover {
     color: #6495ed;
-    background-color: whitesmoke;
+    background-color: #89CFF0;
 
 }
 
-.about_button {
+.about_button,
+.book_button {
 
     background-color: whitesmoke;
     border: 2px solid #6495ed;
+    color: #973c54;
 
 }
