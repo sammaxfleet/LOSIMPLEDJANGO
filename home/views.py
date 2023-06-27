@@ -17,4 +17,3 @@ def about(request):
 
 def images(request):
     return render(request, 'images.html')
-    
