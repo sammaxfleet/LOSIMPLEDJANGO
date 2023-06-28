@@ -21,6 +21,8 @@ def register(request):
 
 
 def user_login(request):
+    if request.user.is_authenticated:
+        return redirect('home')
     if request.method == 'POST':
         form = LoginForm(request, request.POST)
         if form.is_valid():
@@ -39,5 +41,4 @@ def user_login(request):
 
 def logout_view(request):
     logout(request)
-    # Replace 'home' with the appropriate URL name for your home page
     return redirect('home')
