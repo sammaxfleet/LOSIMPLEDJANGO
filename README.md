@@ -44,11 +44,13 @@ EPICS & User Stories
 
 Link it to the repository where you do user stories etc.
 
-Epic 1
-Be able to sign up -
+* Epic 1 - Be able to sign up/login via a form to set up an account. 
 
-1. Set up a working form, make sure it logs the user in. MUST HAVE
-
+  User Story 
+1. Set up a working form, make sure it logs the user in. ## MUST HAVE
+2. Make sure the User can delete the account ## MUST HAVE
+3. Password & email restrictions to protect user such. asdouble using email, or short passwords ## SHOULD HAVE 
+o
 Epic 2
 Login/Log out of account -
 
