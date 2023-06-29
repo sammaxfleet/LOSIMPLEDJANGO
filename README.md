@@ -46,23 +46,22 @@ EPICS & User Stories
 * Epic 1 - Be able to sign up/login via a form to set up an account. 
 
   User Story 
-1. Set up a working form, make sure it logs the user in. ** MUST HAVE **
-2. Make sure the User can delete the account. # MUST HAVE
-3. Password & email restrictions to protect user such. asdouble using email, or short passwords # SHOULD HAVE 
+1. Set up a working form, make sure it logs the user in. **MUST HAVE**
+2. Make sure the User can delete the account. **MUST HAVE**
+3. Password & email restrictions to protect user such. asdouble using email, or short passwords # **SHOULD HAVE**
 
 
-Epic 2
-Be able to book -
+*Epic 2 Be able to book & see dates & price. 
 
 User Story
-Booking calendar, make sure it shows bookings & prices. ** MUST HAVE **
-Prevent double bookings. MUST HAVE
-Allow it to go to a confirmed page once clicked. SHOULD HAVE
-Be able to cancel the booking. MUST HAVE
 
-Epic 4
-Contact Form -
-1.Have a working form that connects via email to the admin. SHOULD HAVE
+1. Booking calendar, make sure it shows bookings & prices. **MUST HAVE**
+Prevent double bookings. MUST HAVE
+2. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
+3. Be able to cancel the booking. **MUST HAVE**
+
+*Epic 3 Contact Form -
+1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
 Epic 5
 Map be able to operate -
