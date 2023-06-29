@@ -60,7 +60,8 @@ Prevent double bookings. MUST HAVE
 2. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
 3. Be able to cancel the booking. **MUST HAVE**
 
-*Epic 3 Contact Form -
+*Epic 3 -Contact Form 
+
 1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
 *Epic 4 Map be able to operate -
@@ -68,27 +69,33 @@ Prevent double bookings. MUST HAVE
 1.Working map so the user can see location **COULD HAVE**
 2.The map pick up the users location too, **WONT HAVE**
 
-*Epic 5 Reviews-
+*Epic 5 - Reviews 
 
 1. Be able to leave a review - **COULD HAVE**
 
 
-Epic 6
-Get the Navbar working - MUST HAVE
-Be able to scroll and the colour change on what page you’re own SHOULD HAVE
-Have a scroll down on the login/ sign up page COULD HAVE.
+*Epic 6 - Navbar
 
-Epic 8
-As the user one can use complimentary colours to navigate through the website.
-The website colours have continuity and the layout from bootstrap. SHOULD HAVE
+1. Get the Navbar working from page to page - **MUST HAVE**
+2. Be able to scroll and the colour change on what page you’re own. **COULD HAVE**
+3. Have a scroll down on the login/ sign up page. **SHOULD HAVE**
 
-Epic 9
-As the developer I can create wireframes
+*Epic 8 - Colours
+1.As the user one can use complimentary colours to navigate through the website. **SHOULD HAVE**
+2. The website colours have continuity and the layout from bootstrap. **SHOULD HAVE**
 
-Epic 10
-CRUD working for the dataBase & the User.
+Epic 9 - Wireframes
+1. As the developer I can create wireframes. **MUST HAVE**
 
-1. Wireframes set up so we can start creating the website. SHOULD HAVE
+Epic 10- CRUD working for the database admin & the User experience.
+
+1. CRUD working for databaseadmin **MUSTHAVE**
+2. CRUD working for the user **MUST HAVE**
+
+
+
+
+
 
 Design
 
