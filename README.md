@@ -55,7 +55,7 @@ Epic 2
 Be able to book -
 
 User Story
-Booking calendar, make sure it shows bookings & prices. MUST HAVE
+Booking calendar, make sure it shows bookings & prices. ** MUST HAVE **
 Prevent double bookings. MUST HAVE
 Allow it to go to a confirmed page once clicked. SHOULD HAVE
 Be able to cancel the booking. MUST HAVE
