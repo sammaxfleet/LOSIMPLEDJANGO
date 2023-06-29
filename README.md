@@ -1,4 +1,4 @@
-Lo Simple
+# Lo Simple
 Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
