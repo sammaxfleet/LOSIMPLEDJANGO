@@ -48,7 +48,7 @@ EPICS & User Stories
   User Story 
 1. Set up a working form, make sure it logs the user in. **MUST HAVE**
 2. Make sure the User can delete the account. **MUST HAVE**
-3. Password & email restrictions to protect user such. asdouble using email, or short passwords # **SHOULD HAVE**
+3. Password & email restrictions to protect user such. asdouble using email, or short passwords **SHOULD HAVE**
 
 
 *Epic 2 Be able to book & see dates & price. 
@@ -63,18 +63,17 @@ Prevent double bookings. MUST HAVE
 *Epic 3 Contact Form -
 1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
-Epic 5
-Map be able to operate -
-Working map so the user can see location SHOULDHAVE
-The map pick up the users location too, COULDHAVE
+*Epic 4 Map be able to operate -
+
+1.Working map so the user can see location **COULD HAVE**
+2.The map pick up the users location too, **WONT HAVE**
+
+*Epic 5 Reviews-
+
+1. Be able to leave a review - **COULD HAVE**
+
 
 Epic 6
-Reviews,
-
-1. be able to leave a comment - COULD HAVE
-2. BE ABLE TO SCROLL THROUGH AND SEE THE STAR RATING, MUST HAVE.
-
-Epic 7
 Get the Navbar working - MUST HAVE
 Be able to scroll and the colour change on what page you’re own SHOULD HAVE
 Have a scroll down on the login/ sign up page COULD HAVE.
