@@ -101,7 +101,7 @@ The website design easy to navigate. The less is more approach is to mirror the 
 
 # Colour Scheme
 
-logo]: https://github.com/static/imgs/Colours.png "Logo Title Text 2"
+<img width="1427" alt="Screenshot 2023-06-29 at 19 48 05" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b954a5e-626f-48d3-9698-90c47647c7a5">
 
 
 
