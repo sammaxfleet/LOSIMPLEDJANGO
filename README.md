@@ -97,9 +97,17 @@ Epic 10- CRUD working for the database admin & the User experience.
 
 
 
-Design
+# Design
 
-The website design easy to navigate. The less is more approach is to mirror the architecture of the BNB & create a resemeblance to its ambiance. The colour scheme was chosend to create a relaxing, calm experience for the user 
+The website design easy to navigate. The less is more approach is to mirror the architecture of the BNB & create a resemeblance to its ambiance. The colour scheme was chosen to create a relaxing & calm experience for the user like it should be when you're on holiday.
+
+
+# Colour Scheme
+
+![Uploading Screenshot 2023-06-29 at 19.48.05.png…]()
+
+
+
 
 Aesthetic -
 
