@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: font-family: 'Quicksand', sans-serif;
     background-color: #FFFAFA;
 }
 
@@ -31,6 +31,7 @@ nav {
     margin-top: 30px;
     position: absolute;
     left: 0;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -96,6 +97,7 @@ main {
     margin-left: 500px;
     font-size: 80px;
     color: #973c54;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .socialbuttons {
@@ -107,5 +109,27 @@ main {
         font-size: 40px;
         position: relative;
     }
+
+}
+
+.text5 { color: black;
+
+}
+
+.contact_form {
+    color: #973c54;
+}
+.form_button:hover,
+{
+    color: #6495ed;
+    background-color: #89CFF0;
+
+}
+
+
+.form_button {
+    background-color: whitesmoke;
+    border: 2px solid #6495ed;
+    color: #973c54;
 
 }

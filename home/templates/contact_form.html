@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<h1 class="text1">Contact Form</h1>
+<h1 class="text5">Contact Form</h1>
 
-<form method="post">
+<form class=contact_form method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <button class="form.button" type="submit">Submit</button>
+    <button class="form_button" type="submit">Submit</button>
 </form>
 
 {% endblock %}
