@@ -1,44 +1,42 @@
-# Lo Simple
+# LO SIMPLE
 Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
-It gives the users a preview of what it’s like to stay bringing a touch of peace, simplicity, sunlight & rejuvenation to the viewers experience.
-
+The site brings a touch of peace, simplicity, sunlight & rejuvenation to the viewers experience.
 It aims at an audience wanting to take a spring/summer break.
-The property is located in Spain, visitors can learn about the town's to do's on the \*about page..
-They can see the reviews & images for the stay. To book the user navigates to the \_’book’ page and goes through the booking procedure I’ve designed .
+The property is located in Barcelona in Spain. Visitors can learn about the location from the map on the [Home ].
+The user can see the reviews or even make a review themself. The images for the stay are available & to book the user navigates to the \_’book’ page and goes through the booking procedure I’ve designed/
 
 A live link to follow to the site is here
 
 www.””
 
+
 https://ui.dev/amiresponsive Image
 
 TABLE OF CONTENTS LINKS
 
-User Experience UX
+# User Experience UX
 
 The Airbnb is aimed at friends/ families to take time out.
-The simplicity is definitely aimed at users between 21-45 because of it’s contemporary unto date furnishings.
+The simplicity is definitely aimed at users between 21-50 because of it’s contemporary upto date furnishings.
 The website provides info and booking capability for the users trip.
 
-The Scope-
-Main site goals
+The Scope & Main site goals.
 
-To provide the user with the wow factor when clicking on the page.
-To make the booking system slick and easy to use.
-To make they site interactive with reviews & rating.
-To provide a less is more aesthetic site, which catches the same ambience as the Airbnb.
-To provide the user with information.
+* To provide the user with a clean aesthetic which is colour coded well when clicking on the page.
+* To make the booking system slick and easy to use.
+* To make the site interactive with login/sign up & reviews. 
+* To provide the user with a smooth experience page to page.
 
 Project Milestones-
 
 I’ve used the MoSCoW prioritisation technique for the user stories.
 
-Must Have
-Should Have
-Could Have
-Won’t Have
+* Must Have
+* Should Have
+* Could Have
+* Won’t Have
 
 Agile Methodology:
 
