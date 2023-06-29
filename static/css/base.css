@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #FFFAFA;
 }
 
@@ -112,24 +112,22 @@ main {
 
 }
 
-.text5 { color: black;
+.text5 {
+    color: black;
 
 }
 
 .contact_form {
     color: #973c54;
 }
-.form_button:hover,
-{
+
+.form_button:hover {
     color: #6495ed;
     background-color: #89CFF0;
-
 }
-
 
 .form_button {
     background-color: whitesmoke;
     border: 2px solid #6495ed;
     color: #973c54;
-
 }

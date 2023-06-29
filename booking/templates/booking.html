@@ -7,6 +7,26 @@
 
 
 <h2>Book Hotel: {{ hotel.name }}</h2>
+<h3>$<h3 id="totalprice">{{ hotel.price}}</h3>TOTAL </h3>
+<h3 id="hotelprice" hidden>{{ hotel.price}}</h3>
+<script>
+    function calculate_total_price(totalvalue) {
+
+        var check_in_date = document.getElementById('check_in_date').value;
+        var check_out_date = document.getElementById('check_out_date').value;
+        var startDate = new Date(check_in_date);
+        var endDate = new Date(check_out_date);
+        // Calculate the time difference in milliseconds
+        var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
+
+        // Calculate the number of days between the dates
+        var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+        var hotelprice = document.getElementById('hotelprice').innerHTML;
+        totalvalue.innerHTML = hotelprice * diffDays;
+
+    }
+
+</script>
 
 <form id="bookingForm" method="post">
     {% csrf_token %}
@@ -14,7 +34,8 @@
     <input type="date" id="check_in_date" name="check_in_date" required>
 
     <label for="check_out_date">Check-out Date:</label>
-    <input type="date" id="check_out_date" name="check_out_date" required>
+    <input type="date" id="check_out_date" name="check_out_date"
+        onchange="calculate_total_price(document.getElementById('totalprice'))" required>
 
     <button id="bookButton" type="button">Book Now</button>
 </form>
