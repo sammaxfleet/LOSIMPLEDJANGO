@@ -56,7 +56,7 @@ EPICS & User Stories
 User Story
 
 1. Booking calendar, make sure it shows bookings & prices. **MUST HAVE**
-Prevent double bookings. MUST HAVE
+Prevent double bookings. **MUST HAVE**
 2. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
 3. Be able to cancel the booking. **MUST HAVE**
 
