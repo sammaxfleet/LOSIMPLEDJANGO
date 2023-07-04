@@ -3,11 +3,7 @@
 
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/book.css' %}">
-<!-- The modal -->
-<div class="modal" id="imageModal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-content" id="modalImage">
-</div>
+
 
 {% for hotel in hotels %}
 
@@ -40,7 +36,7 @@
     </div>
     <div class="image-container">
         <div style="background-color: #FFDAB9; width: 468px; height: 400px;">
-            <img src="{{ hotel.image.url }}" alt="{{ hotel.name }}" width="100%" height="100%">
+            <img id="modalImage" src="{{ hotel.image.url }}" alt="{{ hotel.name }}" width="100%" height="100%">
         </div>
     </div>
 </div>

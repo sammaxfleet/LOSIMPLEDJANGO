@@ -2,56 +2,108 @@
 {% load static %}
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/images.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/image_modal.css' %}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- The modal -->
+<div class="modal" id="imageModal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImage">
+
+</div>
+
 <div class="gallery">
     <div class="gallery-item">
-        <img src="{% static 'imgs/AIRBNB1.jpg' %}" alt="Image 1">
+        <a href="{% static 'imgs/AIRBNB1.jpg' %}">
+            <img src="{% static 'imgs/AIRBNB1.jpg' %}" alt="Image 1">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/AIRBNB2.jpg' %}" alt="Image 2">
+        <a href="{% static 'imgs/AIRBNB2.jpg' %}">
+            <img src="{% static 'imgs/AIRBNB2.jpg' %}" alt="Image 2">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/AIRBNB3.jpg' %}" alt="Image 3">
+        <a href="{% static 'imgs/AIRBNB3.jpg' %}">
+            <img src="{% static 'imgs/AIRBNB3.jpg' %}" alt="Image 3">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/AIRBNB4.jpg' %}" alt="Image 4">
+        <a href="{% static 'imgs/AIRBNB4.jpg' %}">
+            <img src="{% static 'imgs/AIRBNB4.jpg' %}" alt="Image 4">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/AIRBNB5.jpg' %}" alt="Image 5">
+        <a href="{% static 'imgs/AIRBNB5.jpg' %}">
+            <img src="{% static 'imgs/AIRBNB5.jpg' %}" alt="Image 5">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/bathroom.jpg' %}" alt="Image 6">
+        <a href="{% static 'imgs/bathroom.jpg' %}">
+            <img src="{% static 'imgs/bathroom.jpg' %}" alt="Image 6">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/bed.jpg' %}" alt="Image 7">
+        <a href="{% static 'imgs/bed.jpg' %}">
+            <img src="{% static 'imgs/bed.jpg' %}" alt="Image 7">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/LOSIMPLEIMG.jpg' %}" alt="Image 8">
+        <a href="{% static 'imgs/LOSIMPLEIMG.jpg' %}">
+            <img src="{% static 'imgs/LOSIMPLEIMG.jpg' %}" alt="Image 8">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/LOSIMPLEIMG2.jpg' %}" alt="Image 9">
+        <a href="{% static 'imgs/LOSIMPLEIMG2.jpg' %}">
+            <img src="{% static 'imgs/LOSIMPLEIMG2.jpg' %}" alt="Image 9">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/LOSIMPLEIMG5.jpg' %}" alt="Image 10">
+        <a href="{% static 'imgs/LOSIMPLEIMG5.jpg' %}">
+            <img src="{% static 'imgs/LOSIMPLEIMG5.jpg' %}" alt="Image 10">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/LOSIMPLEIMG6.jpg' %}" alt="Image 11">
+        <a href="{% static 'imgs/LOSIMPLEIMG6.jpg' %}">
+            <img src="{% static 'imgs/LOSIMPLEIMG6.jpg' %}" alt="Image 11">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/LOSIMPLEIMG4.jpg' %}" alt="Image 12">
+        <a href="{% static 'imgs/LOSIMPLEIMG4.jpg' %}">
+            <img src="{% static 'imgs/LOSIMPLEIMG4.jpg' %}" alt="Image 12">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/outside.jpg' %}" alt="Image 13">
+        <a href="{% static 'imgs/outside.jpg' %}">
+            <img src="{% static 'imgs/outside.jpg' %}" alt="Image 13">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/outside1.jpg' %}" alt="Image 13">
+        <a href="{% static 'imgs/outside1.jpg' %}">
+            <img src="{% static 'imgs/outside1.jpg' %}" alt="Image 13">
+        </a>
     </div>
+
     <div class="gallery-item">
-        <img src="{% static 'imgs/staircase.jpg' %}" alt="Image 13">
+        <a href="{% static 'imgs/staircase.jpg' %}">
+            <img src="{% static 'imgs/staircase.jpg' %}" alt="Image 13">
     </div>
     <!-- Add more gallery items as needed -->
 </div>
 
-
+<script src="{% static 'js/image_modal.js' %}"></script>
 {% endblock %}
