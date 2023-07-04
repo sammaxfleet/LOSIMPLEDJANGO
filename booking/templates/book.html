@@ -3,7 +3,11 @@
 
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/book.css' %}">
-
+<!-- The modal -->
+<div class="modal" id="imageModal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
 
 {% for hotel in hotels %}
 
