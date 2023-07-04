@@ -6,7 +6,17 @@ from .models import Hotel, Booking
 
 
 def hotel_list(request):
-    hotels = Hotel.objects.all()
+    hotels = Hotel.objects.all().order_by('name')
+    allhotels = []
+    for hotel in hotels:
+        allhotels.append({
+            "name": hotel.name,
+            "description": hotel.description,
+            "image": hotel.image,
+            "price": hotel.price,
+            "id": hotel.id,
+
+        })
     return render(request, 'book.html', {'hotels': hotels})
 
 
@@ -24,7 +34,3 @@ def book_hotel(request, hotel_id):
         return render(request, 'success.html', {'hotel': hotel, 'booking': booking})
 
     return render(request, 'booking.html', {'hotel': hotel})
-
-
-# strings add on the end.
-# it went through or it didn't- it couldn't be done please contact us. How are you mangaging if something goes wrong.

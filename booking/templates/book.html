@@ -22,14 +22,15 @@
                 <br>
                 <p style="color: #973c54;">
                 <div class="Hotel_Descrip">
+                    {{ hotel.id }}
                     {{ hotel.description }}
                 </div>
                 </p>
             </div>
 
             <div style="height: 50px;">
-                <button class="book-button"> <a class="book-button"
-                        href="{% url 'booking:book_hotel' hotel.id  %}">Book</a></button>
+                <button class="book-button"> <a class="book-button" href="{% url 'booking:book_hotel' hotel.id %}">
+                        Book</a></button>
             </div>
         </div>
     </div>

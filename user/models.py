@@ -22,6 +22,3 @@ class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     profile_image = models.ImageField(
         upload_to=user_profile_image_upload_to, blank=True, null=True)
-
-   # def __str__(self):
-    # return self.user.username

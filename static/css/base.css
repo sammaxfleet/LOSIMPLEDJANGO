@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: #89CFF0;
 }
 
 main {
@@ -119,6 +119,8 @@ main {
 
 .contact_form {
     color: #973c54;
+    margin-top: 30px;
+
 }
 
 .form_button:hover {
@@ -128,6 +130,10 @@ main {
 
 .form_button {
     background-color: whitesmoke;
-    border: 2px solid #6495ed;
+    border: 1px solid #89CFF0;
     color: #973c54;
+}
+
+.id_message {
+    margin-top: 0px;
 }
