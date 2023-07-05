@@ -126,7 +126,6 @@ User Story-
 1. Test through all validators & make sure it's working withheroku aswell as the development on code anywhere. 
 
 
-
 # Design
 
 The website design easy to navigate. The less is more approach is to mirror the architecture of the villa & create a resemeblance to its ambiance. The colour scheme was chosen to create a relaxing & calm experience for the user like it should be when you're on a break.
@@ -153,15 +152,10 @@ For this Django app I’ve used PostgreSQL relational database management system
 Database Diagram 
 
 The Sample diagram was use using https://lucidchart.com
-
-[LO SIMPLE DIAGRAM.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957261/LO.SIMPLE.DIAGRAM.pdf)
-
-
-
-For this Django app I’ve used PostgreSQL relational database management system.
-
 The Tables below show the structure of the PostgreSQL database,
 Including tables, columns, relationships stored in the database.
+
+[LO SIMPLE DIAGRAM.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957261/LO.SIMPLE.DIAGRAM.pdf)
 
 
 
