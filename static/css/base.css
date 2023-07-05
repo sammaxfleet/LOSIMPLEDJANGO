@@ -137,3 +137,14 @@ main {
 .id_message {
     margin-top: 0px;
 }
+
+.back_button {
+    background-color: whitesmoke;
+    border: 1px solid #89CFF0;
+    color: #973c54;
+}
+
+.back_button:hover {
+    color: #6495ed;
+    background-color: #89CFF0;
+}
