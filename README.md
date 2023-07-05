@@ -48,6 +48,10 @@ User story
 1. As the developer I can create wireframes to make the website easier to build, for time management sticking to the agile approach. **MUST HAVE**
 
 
+
+2. 
+
+
  Epic 1 - Be able to sign up/login via a form to set up an account & CRUD.
 
  User Story 
@@ -85,10 +89,6 @@ Epic 6 - Navbar
 1. Get the Navbar working from page to page - **MUST HAVE**
 2. Be able to scroll and the colour change on what page you’re own. **COULD HAVE**
 3. Have a scroll down on the login/ sign up page. **SHOULD HAVE**
-
-Epic 7 - Colours
-1.As the user one can use complimentary colours to navigate through the website. **SHOULD HAVE**
-2. The website colours have continuity and the layout from bootstrap. **SHOULD HAVE**
 
 
 Epic 9 - CRUD working for the database admin & the User experience.
