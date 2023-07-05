@@ -43,7 +43,7 @@ Agile Methodology:
 # EPICS & USER STORIES
 
 
-#Epic 1 - Be able to sign up/login via a form to set up an account. 
+# Epic 1 - Be able to sign up/login via a form to set up an account. 
 
   User Story 
 1. Set up a working form, make sure it logs the user in. **MUST HAVE**
