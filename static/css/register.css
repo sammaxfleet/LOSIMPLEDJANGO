@@ -1,7 +1,9 @@
 .account-container {
     width: 1110px;
     height: 624px;
-    background-color: #b9c9c7;
+    background-color: #ADD8E6;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -11,7 +13,8 @@
 .form-container {
     width: 550px;
     height: 500px;
-    background-color: #d9d1d1;
+    background-color: #FFDAB9;
+
     padding: 20px;
     border: 1px solid #612641;
     text-align: center;
@@ -27,7 +30,7 @@
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    
+
 }
 
 .btn {
@@ -37,4 +40,16 @@
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
+    font-family: Clarendon LT, Lulo Clean, Georgia;
+}
+
+.btn_signup {
+    background-color: whitesmoke;
+    border: 1px solid #89CFF0;
+    color: #973c54;
+}
+
+.btn_signup:hover {
+    color: #6495ed;
+    background-color: #89CFF0;
 }

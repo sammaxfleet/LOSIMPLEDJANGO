@@ -66,7 +66,8 @@
 
 .p1 {
     color: #973c54;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
     margin-top: 10px;
     font-size: 18px;
     margin-top: 85px;
@@ -86,5 +87,7 @@
     background-color: whitesmoke;
     border: 2px solid #6495ed;
     color: #973c54;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 
 }

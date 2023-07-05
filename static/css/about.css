@@ -1,6 +1,7 @@
 .list1 {
     color: #973c54;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
     margin-top: 10px;
     font-size: 18px;
     margin-top: 25px;
@@ -9,6 +10,8 @@
 
 .text1 {
     color: #973c54;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 }
 
 .location-container {
@@ -38,6 +41,8 @@
 .paragraph-content {
     color: #333;
     font-size: 16px;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 }
 
 .icon {
@@ -69,5 +74,11 @@
 .bold,
 .fa-solid {
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
+}
+
+.form-group {
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 }

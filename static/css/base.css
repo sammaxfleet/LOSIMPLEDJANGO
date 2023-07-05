@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Clarendon LT, Lulo Clean, Georgia;
     background-color: #FFFAFA;
 }
 
@@ -31,7 +31,8 @@ nav {
     margin-top: 30px;
     position: absolute;
     left: 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 
 }
 
@@ -97,29 +98,27 @@ main {
     margin-left: 500px;
     font-size: 80px;
     color: #973c54;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 }
 
 .socialbuttons {
     size: large;
 }
 
-@media screen and (max-width: 1172px) {
-    .title {
-        font-size: 40px;
-        position: relative;
-    }
-
-}
 
 .text5 {
     color: black;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 
 }
 
 .contact_form {
     color: #973c54;
     margin-top: 30px;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 
 }
 
@@ -134,8 +133,13 @@ main {
     color: #973c54;
 }
 
-.id_message {
-    margin-top: 0px;
+.id_first_name,
+.id_message,
+.id_last_name,
+.id_email {
+
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 }
 
 .back_button {
@@ -147,4 +151,12 @@ main {
 .back_button:hover {
     color: #6495ed;
     background-color: #89CFF0;
+}
+
+
+@media screen and (max-width: 718px) {
+    .title {
+        font-size: 25px;
+    }
+
 }

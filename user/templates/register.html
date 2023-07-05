@@ -4,8 +4,7 @@
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
 
-<h2 style="color: #5f233f; text-align: center;">Sign Up</h2>
-<hr style="background-color: #5f233f;">
+<h2 style="color: #973c54; text-align: center;, font-family: Clarendon LT, Lulo Clean, Georgia;">Sign Up</h2>
 <br>
 <div class="account-container">
     <p>Already have an account? <a href="{% url 'user_login' %}" style="color: #5f233f;">Log in</a></p>
@@ -28,7 +27,7 @@
                 {{ form.password2.errors }}
                 <input type="password" class="form-control" name="password2" placeholder="Confirm Password" required>
             </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn_signup">Sign Up</button>
 
             {% if form.errors %}
             <div class="alert alert-danger mt-3">

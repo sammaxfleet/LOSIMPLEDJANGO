@@ -1,10 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT, Lulo Clean, Georgia;
     background-color: #FFFAFA;
 }
-
 
 .hotel-container {
     width: 1124px;
@@ -34,31 +33,34 @@ body {
     height: 400px;
 }
 
-hr {
-    color: #973c54;
-}
 
 .hotel_name {
     color: #973c54;
     text-transform: uppercase;
     font-size: 50px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
+    margin-top: 15px;
 }
 
 .Hotel_Descrip {
-    font-family: sans-serif, Arial;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
     color: #973c54;
     font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    max-height: 50px;
+    overflow: auto;
+
 }
-
-
-
 
 
 .list1 {
     color: #973c54;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
     margin-top: 10px;
     font-size: 18px;
     margin-top: 25px;
@@ -127,5 +129,6 @@ hr {
 .bold,
 .fa-solid {
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: Clarendon LT,
+        Lulo Clean, Georgia;
 }
