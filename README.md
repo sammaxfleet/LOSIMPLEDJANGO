@@ -26,7 +26,7 @@ The Scope & Main site goals.
 
 * To provide the user with a clean aesthetic which is colour coded well when clicking on the page.
 * To make the booking system slick and easy to use.
-* To make the site interactive with login/sign up & reviews. 
+* To make the site interactive with login/Sign up & reviews. 
 * To provide the user with a smooth experience page to page.
 
 Project Milestones-
@@ -43,7 +43,7 @@ Agile Methodology:
 # EPICS & USER STORIES
 
 
-* Epic 1 - Be able to sign up/login via a form to set up an account. 
+#Epic 1 - Be able to sign up/login via a form to set up an account. 
 
   User Story 
 1. Set up a working form, make sure it logs the user in. **MUST HAVE**
