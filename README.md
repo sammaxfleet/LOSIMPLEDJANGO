@@ -41,25 +41,30 @@ I’ve used the MoSCoW prioritisation technique for the user stories.
 Agile Methodology:
 
 ## EPICS & USER STORIES
+Epic 1 - Wireframes
+
+User story
+
+1. As the developer I can create wireframes to make the website easier to build, for time management sticking to the agile approach. **MUST HAVE**
 
 
- Epic 1 - Be able to sign up/login via a form to set up an account. 
+ Epic 1 - Be able to sign up/login via a form to set up an account & CRUD.
 
  User Story 
   
-1. Set up a working form, make sure it logs the user in. **MUST HAVE**
+1. Set up a working form, make sure  the user is able to sign up from scracth and another option with is a 'log in' when details are already signed up. **MUST HAVE**
 2. Make sure the User can delete the account. **MUST HAVE**
-3. Password & email restrictions to protect user such. asdouble using email, or short passwords **SHOULD HAVE**
+3. Password & email restrictions to protect user such as double using email, or short passwords **SHOULD HAVE**
 
 
-Epic 2  - Be able to book & see dates & price. 
+Epic 2  - Be able to book by selecting dates & price. 
 
 User Story
 
 1. Booking calendar, make sure it shows bookings & prices. **MUST HAVE**
-Prevent double bookings. **MUST HAVE**
+2. Prevent double bookings. **SHOULD HAVE**
 2. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
-3. Be able to cancel the booking. **MUST HAVE**
+3. Be able to cancel the booking. **SHOULD HAVE**
 
 Epic 3 -Contact Form 
 
@@ -85,8 +90,6 @@ Epic 7 - Colours
 1.As the user one can use complimentary colours to navigate through the website. **SHOULD HAVE**
 2. The website colours have continuity and the layout from bootstrap. **SHOULD HAVE**
 
-Epic 8 - Wireframes
-1. As the developer I can create wireframes. **MUST HAVE**
 
 Epic 9 - CRUD working for the database admin & the User experience.
 
