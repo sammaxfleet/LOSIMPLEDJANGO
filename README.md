@@ -16,7 +16,7 @@ https://ui.dev/amiresponsive Image
 
 # TABLE OF CONTENT
 
-[Site Description]
+[# LO SIMPLE]
 
 
 
