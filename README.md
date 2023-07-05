@@ -61,8 +61,7 @@ Epic 3 - Navbar
 3. Have a scroll down on the login/ sign up page. **SHOULD HAVE**
 
 
-
-Epic 3 - Be able to sign up/login via a form to set up an account & CRUD.
+Epic 4 - Be able to sign up/login via a form to set up an account & CRUD.
 
  User Story 
   
@@ -71,7 +70,7 @@ Epic 3 - Be able to sign up/login via a form to set up an account & CRUD.
 3. Password & email restrictions to protect user such as double using email, or short passwords **SHOULD HAVE**
 
 
-Epic 2  - Be able to book by selecting dates & price. 
+Epic 5  - Be able to book by selecting dates & price. 
 
 User Story
 
@@ -80,7 +79,16 @@ User Story
 2. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
 3. Be able to cancel the booking. **SHOULD HAVE**
 
-Epic 3 -Contact Form 
+
+Epic 6- Working map with location
+
+User Story
+
+1. The map be able to show the location of the villa with a working gps.
+   
+
+
+Epic 6  -Contact Form 
 
 1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
