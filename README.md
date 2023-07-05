@@ -136,14 +136,23 @@ The design has a lot of images, allowing the user to get as close of a visual re
 <img width="1427" alt="Screenshot 2023-06-29 at 19 48 05" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b954a5e-626f-48d3-9698-90c47647c7a5">
 
 #fonts 
+
 The 'Quicksand' font is the main font used on the page, while 'Montserrat' in a bolder weight was used for the navbar and 'Kanit' for other accent areas. The 'Sans-serif' font is noted as a backup and will be used in the event that the main fonts aren't imported correctly to the site. These font style were chosen for their ease of legibility and general letter spacing and were imported from Google Fonts.
+
 
 
 
 
 For this Django app I’ve used PostgreSQL relational database management system.
 Database Diagram
+ERD Physical DatabaseModel
 
+The Sample diagram was use using https://drawsql.app/
+
+For this Django app I’ve used PostgreSQL relational database management system.
+
+The Tables below show the structure of the PostgreSQL database,
+Including tables, columns, relationships stored in the database.
 
 
 
@@ -153,20 +162,8 @@ The Title-
 
 Nav Bar-
 
-
 Imagery-
 
-Fonts-
 
-Wireframes-
 
-DataBase
 
-ERD Physical DatabaseModel
-
-The Sample diagram was use using https://drawsql.app/
-
-For this Django app I’ve used PostgreSQL relational database management system.
-
-The Tables below show the structure of the PostgreSQL database,
-Including tables, columns, relationships stored in the database.
