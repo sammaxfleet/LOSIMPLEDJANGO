@@ -16,6 +16,9 @@ https://ui.dev/amiresponsive Image
 
 TABLE OF CONTENTS LINKS
 
+
+
+
 # User Experience UX
 
 The Airbnb is aimed at friends/ families to take time out.
@@ -117,7 +120,6 @@ User Story-
 1. Check responsiveness. 
 
 
-
 EPIC 13- TESTING
 
 User Story-
@@ -138,6 +140,12 @@ The design has a lot of images, allowing the user to get as close of a visual re
 #fonts 
 
 The 'Quicksand' font is the main font used on the page, while 'Montserrat' in a bolder weight was used for the navbar and 'Kanit' for other accent areas. The 'Sans-serif' font is noted as a backup and will be used in the event that the main fonts aren't imported correctly to the site. These font style were chosen for their ease of legibility and general letter spacing and were imported from Google Fonts.
+
+
+
+#WireFrames
+
+[airbnb 2.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957230/airbnb.2.pdf)
 
 
 
