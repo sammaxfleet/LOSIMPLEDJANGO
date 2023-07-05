@@ -88,7 +88,7 @@ User Story
    
 
 
-Epic 6  -Contact Form 
+Epic 7  - Contact Form 
 
 1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
@@ -97,7 +97,7 @@ Epic 4 Map be able to operate -
 1.Working map so the user can see location **COULD HAVE**
 2.The map pick up the users location too, **WONT HAVE**
 
-Epic 5 - Reviews 
+Epic 8 - Reviews 
 
 1. Be able to leave a review - **COULD HAVE**
 
@@ -107,6 +107,14 @@ Epic 9 - CRUD working for the database admin & the User experience.
 
 1. CRUD working for databaseadmin **MUSTHAVE**
 2. CRUD working for the user **MUST HAVE**
+
+EPIC 10- TESTING
+
+User Story-
+
+1. Test through all validators. 
+
+
 
 
 
