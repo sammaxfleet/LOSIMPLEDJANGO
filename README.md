@@ -107,7 +107,6 @@ Epic 10 - Reviews
 1. Be able to leave a review - **COULD HAVE**
 
 
-
 Epic 11 - CRUD working for the database admin & the User experience.
 
 1. CRUD working for databaseadmin **MUSTHAVE**
@@ -137,13 +136,13 @@ The design has a lot of images, allowing the user to get as close of a visual re
 
 <img width="1427" alt="Screenshot 2023-06-29 at 19 48 05" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b954a5e-626f-48d3-9698-90c47647c7a5">
 
-#fonts 
+# Fonts 
 
 The 'Quicksand' font is the main font used on the page, while 'Montserrat' in a bolder weight was used for the navbar and 'Kanit' for other accent areas. The 'Sans-serif' font is noted as a backup and will be used in the event that the main fonts aren't imported correctly to the site. These font style were chosen for their ease of legibility and general letter spacing and were imported from Google Fonts.
 
 
 
-#WireFrames
+# WireFrames
 
 [airbnb 2.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957230/airbnb.2.pdf)
 
@@ -152,10 +151,9 @@ The 'Quicksand' font is the main font used on the page, while 'Montserrat' in a 
 
 
 For this Django app I’ve used PostgreSQL relational database management system.
-Database Diagram
-ERD Physical DatabaseModel
+Database Diagram 
 
-The Sample diagram was use using https://drawsql.app/
+The Sample diagram was use using https://lucidchart.com
 
 For this Django app I’ve used PostgreSQL relational database management system.
 
