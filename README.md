@@ -40,7 +40,7 @@ I’ve used the MoSCoW prioritisation technique for the user stories.
 
 Agile Methodology:
 
-EPICS & User Stories
+# EPICS & USER STORIES
 
 
 * Epic 1 - Be able to sign up/login via a form to set up an account. 
