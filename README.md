@@ -149,11 +149,14 @@ The 'Quicksand' font is the main font used on the page, while 'Montserrat' in a 
 
 
 
-
 For this Django app I’ve used PostgreSQL relational database management system.
 Database Diagram 
 
 The Sample diagram was use using https://lucidchart.com
+
+[LO SIMPLE DIAGRAM.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957261/LO.SIMPLE.DIAGRAM.pdf)
+
+
 
 For this Django app I’ve used PostgreSQL relational database management system.
 
