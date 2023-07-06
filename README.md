@@ -203,9 +203,10 @@ I have got 3 social media icons in the footer, the colours are customized to mat
 
 ## Imagery
 
-The image on the site mainly consists of the architecture, I personally feel this is the main appeal as well as the location. 
+The images on the site mainly consists of the architecture, I personally feel this is the main appeal as well as the location for the user. 
 On the images page you can then zoom into the image to see them all.
-
+The images give a warm & slick vision to the site. The appeal is very minimal, a less is more approach with the interioir and architectual design from the villas.
+I have posted screen shots beaneath this in the page walkthrough. 
 
 
 
@@ -293,6 +294,35 @@ Contrasting Colours for the Log In Page so it isn't confused with the sign up.
 <img width="603" alt="Screenshot 2023-07-06 at 19 13 44" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/57a6c40a-6f45-4e32-9c6e-54f926560ae4">
 
 
+
+# Testing 
+
+
+# Languages
+
+HTML
+CSS
+PYTHON
+JAVASCRIPT
+
+# Frameworks - Libraries - Programs Used
+
+Django: Main python framework used in the development of this project
+PostgreSQL Used as the database for this project.
+Heroku - Used as the cloud-based platform to deploy the site.
+Am I Responsive - Used to verify responsiveness of website on different devices.
+Blasamiq - Used to create wireframes for both desktop and mobile visuals.
+Font Awesome - Used for icons on the home page and stars on the About page.
+GitHub - Used for version control and agile methodology.
+Google Fonts - Imported and used to change fonts on pages from default fonts.
+W3C - Used for HTML & CSS Validation.
+PEP8 Online - Used to validate all Python code pages in the project.
+Jshint - Used to validate the JavaScript page.
+Coolors - Used to create color scheme.
+Crispy Forms Used to manage Django Forms
+Bootstrap: CSS used for developing responsiveness and styling the website.
+Google: All images used were sourced from a Google search. 
+Airbnb page: used for inspiration. 
 
 
 
