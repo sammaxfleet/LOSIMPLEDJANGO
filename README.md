@@ -197,6 +197,12 @@ The next Img show's the babyblue highlight when switching page or navigating bet
 <img width="157" alt="Screenshot 2023-07-06 at 17 32 49" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3a69cce3-1617-4023-bd6c-0f1fd4678cfb">
 
 
+## Footer
+
+I have got 3 social media icons in the footer, the colours are customized to match the sites aesthetic.
+<img width="190" alt="Screenshot 2023-07-06 at 17 41 37" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/75340b3b-7579-488d-819b-cab09cdddc28">
+
+
 
 Imagery-
 
