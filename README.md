@@ -207,19 +207,22 @@ I have got 3 social media icons in the footer, the colours are customized to mat
 
 The complimetary colours on the home page, I believe draw the user in the first feature is a mirrored image. 
 The first image is of the villa's architecture. This shows the spacious ambiance & captures its relaxing touch with its colours. 
-![Uploading Screenshot 2023-07-06 at 18.25.09.png…]()
+![Screenshot 2023-07-06 at 18 25 09](https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/975f7e08-15f9-4fab-8e5b-906eb38a1df2)
+
 
 I took down the opacity to be creative with the first feature of the site, the images ditto each other. 
 
 Post the feature Image, in a smaller container class I added some of the Villa interior - This is not to give the user the full features yet, but to keep the user engaged by showing some of the best roooms of the villa. 
 The continuity for the viewer is important seeing the beautiful architecture is great, the next feature I felt was important to show the inside of the villa, to spark the thought of the user staying there. 
+<img width="816" alt="Screenshot 2023-06-30 at 10 46 30" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/59e42889-fc08-4e01-932b-0f132b1afa95">
 
-![Uploading Screenshot 2023-07-06 at 18.25.20.png…]()
+
 
 2nd section of the page- 
 Location is imperative for anyone on a vacation. The map show's the location and gives a link to google maps, next to it there are some links to the user gaining further info about the page, which direct you either to the "About Page" or "Book Page". 
 
-![Uploading Screenshot 2023-07-06 at 18.25.29.png…]()
+<img width="1125" alt="Screenshot 2023-07-06 at 18 25 29" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/aa0d7ec8-afb0-40cd-953b-238a1dc714bc">
+
 
 
 ## Book & Success Page. 
