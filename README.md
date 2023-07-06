@@ -201,7 +201,7 @@ I have got 3 social media icons in the footer, the colours are customized to mat
 
 
 
-# Website Pages
+#  Pages Walkthrough 
 
 ## Home Page
 
