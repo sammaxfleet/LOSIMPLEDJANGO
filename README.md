@@ -161,15 +161,12 @@ I used this font to give more of a mediteranean touch to the page, something tha
 
 [airbnb 2.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957230/airbnb.2.pdf)
 
-
-
+## DATABASE DIAGRAM
 
 For this Django app I’ve used PostgreSQL relational database management system.
-Database Diagram 
 
-The Sample diagram was use using https://lucidchart.com
-The Tables below show the structure of the PostgreSQL database,
-Including tables, columns, relationships stored in the database.
+The Sample diagram was use using https://lucidchart.com, it shows how I interconnected everything. 
+The table shows the structure of the PostgreSQL database, including tables, columns, relationships stored in the database.
 
 [LO SIMPLE DIAGRAM.pdf](https://github.com/sammaxfleet/LOSIMPLEDJANGO/files/11957261/LO.SIMPLE.DIAGRAM.pdf)
 
@@ -204,7 +201,44 @@ I have got 3 social media icons in the footer, the colours are customized to mat
 
 
 
+# Website Pages
+
+## Home Page
+
+The complimetary colours on the home page, I believe draw the user in the first feature is a mirrored image. 
+The first image is of the villa's architecture. This shows the spacious ambiance & captures its relaxing touch with its colours. 
+![Uploading Screenshot 2023-07-06 at 18.25.09.png…]()
+
+I took down the opacity to be creative with the first feature of the site, the images ditto each other. 
+
+Post the feature Image, in a smaller container class I added some of the Villa interior - This is not to give the user the full features yet, but to keep the user engaged by showing some of the best roooms of the villa. 
+The continuity for the viewer is important seeing the beautiful architecture is great, the next feature I felt was important to show the inside of the villa, to spark the thought of the user staying there. 
+
+![Uploading Screenshot 2023-07-06 at 18.25.20.png…]()
+
+2nd section of the page- 
+Location is imperative for anyone on a vacation. The map show's the location and gives a link to google maps, next to it there are some links to the user gaining further info about the page, which direct you either to the "About Page" or "Book Page". 
+
+![Uploading Screenshot 2023-07-06 at 18.25.29.png…]()
+
+
+## Book & Success Page. 
+
+## About
+
+## Images
+
+## Contact
+
+## My Account- Login & Sign Up.
+
+
 Imagery-
+
+The image on the site mainly consists of the architecture, I personally feel this is the main appeal as well as the location. 
+On the images page you can then zoom into the image to see them all.
+
+
 
 
 
