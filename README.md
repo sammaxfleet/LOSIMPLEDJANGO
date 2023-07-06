@@ -298,6 +298,22 @@ Contrasting Colours for the Log In Page so it isn't confused with the sign up.
 # Testing 
 
 
+All CSS was checked with the
+https://jigsaw.w3.org/css-validator/#validate_by_input
+
+BASE.CSS - NO ERRORS
+HOME.CSS - NO ERRORS
+ABOUT.CSS - NO ERRORS
+BOOK.CSS - NO ERRORS
+BOOKING.CSS - NO ERRORS
+IMAGE_MODAL.CSS - NO ERROS 
+IMAGES.CSS - NO ERRORS
+LOGIN.CSS - NO ERRORS
+MODAL.CSS - NO ERRORS
+REGISTER.CSS - NO ERRORS
+
+
+
 # Languages
 
 HTML
