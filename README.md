@@ -147,9 +147,13 @@ The design has a lot of images, allowing the user to get as close of a visual re
 
 <img width="1427" alt="Screenshot 2023-06-29 at 19 48 05" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b954a5e-626f-48d3-9698-90c47647c7a5">
 
+I chose these colours to give a peacful feel to the site, the blue represents the ocean & while the orange the sun, the snow white the architecture & the Burgandy matching the interior of the villas. 
+
 # Fonts 
 
-The 'Quicksand' font is the main font used on the page, while 'Montserrat' in a bolder weight was used for the navbar and 'Kanit' for other accent areas. The 'Sans-serif' font is noted as a backup and will be used in the event that the main fonts aren't imported correctly to the site. These font style were chosen for their ease of legibility and general letter spacing and were imported from Google Fonts.
+font-family: Clarendon LT, Lulo Clean, Georgia;
+
+I used this font to give more of a mediteranean touch to the page, something that would be good for a resturant menu but I have flipped it and used it for the booking a Villa. 
 
 
 
@@ -171,11 +175,28 @@ Including tables, columns, relationships stored in the database.
 
 
 
-Aesthetic -
+# BASE HTML & CSS WEBSITE LAYOUT.
 
-The Title-
+## Title
 
-Nav Bar-
+<img width="455" alt="Screenshot 2023-07-06 at 17 24 23" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b54a3db7-0084-4214-832f-7b290134d102">
+
+"Lo Simple" translates "The Simple" in Spanish.
+I chose the Burgandy font against the snow white background. I think the colour is calm and inviting. 
+
+
+
+## Nav Bar
+
+The Nav is the first time we see the orange on the site. This colour brings a warmth and a is a colour we associate with holiday. 
+
+<img width="532" alt="Screenshot 2023-07-06 at 17 24 33" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d859d8e2-4884-40c5-ba2d-806024219eca">
+
+The next Img show's the babyblue highlight when switching page or navigating between seleciton like here on the "My Account" option. 
+
+<img width="157" alt="Screenshot 2023-07-06 at 17 32 49" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3a69cce3-1617-4023-bd6c-0f1fd4678cfb">
+
+
 
 Imagery-
 
