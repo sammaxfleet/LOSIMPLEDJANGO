@@ -1,4 +1,4 @@
-# LO SIMPLE
+ # LO SIMPLE
 Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
@@ -226,6 +226,15 @@ Location is imperative for anyone on a vacation. The map show's the location and
 
 
 ## Book & Success Page. 
+
+The Booking option, there are 4 villas available for booking.
+
+<img width="1118" alt="Screenshot 2023-07-06 at 18 31 02" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/66a2b421-3723-4b5f-9086-4aba40b8d12a">
+
+
+<img width="826" alt="Screenshot 2023-07-06 at 18 36 59" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/db721a09-43c9-4a02-af55-c7b6dac620d0">
+
+<img width="543" alt="Screenshot 2023-07-06 at 18 37 49" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/add58582-69d5-4726-8820-9342ff4ab272">
 
 ## About
 
