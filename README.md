@@ -227,12 +227,20 @@ Location is imperative for anyone on a vacation. The map show's the location and
 
 ## Book & Success Page. 
 
-The Booking option, there are 4 villas available for booking.
+The Booking option, there are 4 villas available for booking. This page you are able to scroll through the description and see the aesthetic of Apartment 1.
+The book button lights up blue before it navigates the user to the next page. 
 
 <img width="1118" alt="Screenshot 2023-07-06 at 18 31 02" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/66a2b421-3723-4b5f-9086-4aba40b8d12a">
 
+Check in Date- Check Out Date are available to click on, changing the dates also changes the price. 
 
 <img width="826" alt="Screenshot 2023-07-06 at 18 36 59" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/db721a09-43c9-4a02-af55-c7b6dac620d0">
+
+A confirmed box pops up to notify the viewer, before they continue. 
+
+<img width="298" alt="Screenshot 2023-07-06 at 18 39 39" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/a3562d7a-5f65-453f-b1f8-b835eff57a6c">
+
+A confirmation print with the dates is there for the user , with a back navigation button. 
 
 <img width="543" alt="Screenshot 2023-07-06 at 18 37 49" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/add58582-69d5-4726-8820-9342ff4ab272">
 
