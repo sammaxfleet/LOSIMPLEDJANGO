@@ -228,7 +228,7 @@ Location is imperative for anyone on a vacation. The map show's the location and
 ## Book & Success Page. 
 
 The Booking option, there are 4 villas available for booking. This page you are able to scroll through the description and see the aesthetic of Apartment 1.
-The book button lights up blue before it navigates the user to the next page. 
+The book button lights up blue before it navigates the user to the next page. The page is desigend for the user to easily navigate throught the booking process, the text is kept in black and the buttons grey here with it being a financial booking so it's more of a formal process for the user & no nright colours are throwing off the user. 
 
 <img width="1118" alt="Screenshot 2023-07-06 at 18 31 02" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/66a2b421-3723-4b5f-9086-4aba40b8d12a">
 
@@ -244,9 +244,26 @@ A confirmation print with the dates is there for the user , with a back navigati
 
 <img width="543" alt="Screenshot 2023-07-06 at 18 37 49" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/add58582-69d5-4726-8820-9342ff4ab272">
 
-## About
+## About Page
+
+The About page is designed to give the user further description of the rooms & details for the stay.
+It also gives the user the optin to write a review. 
+
+<img width="1126" alt="Screenshot 2023-07-06 at 18 48 35" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/2599014b-b11d-487e-8844-0f23da446a8c">
+
+Features to the Villas.
+
+<img width="908" alt="Screenshot 2023-07-06 at 18 55 59" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/c938a979-230f-4144-9c94-6c73e2b2bcb8">
+
+Review Section
+<img width="1214" alt="Screenshot 2023-07-06 at 18 56 06" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/1a509896-6873-45ad-8f2d-32c5ea2f689e">
 
 ## Images
+
+The img page gives a total span of the Villas The feature to view each image in full size is added to the page. 
+
+![Uploading Screenshot 2023-07-06 at 18.59.22.png…]()
+
 
 ## Contact
 
