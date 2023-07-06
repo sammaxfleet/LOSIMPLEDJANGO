@@ -201,7 +201,15 @@ I have got 3 social media icons in the footer, the colours are customized to mat
 
 
 
-#  Pages Walkthrough 
+## Imagery
+
+The image on the site mainly consists of the architecture, I personally feel this is the main appeal as well as the location. 
+On the images page you can then zoom into the image to see them all.
+
+
+
+
+#  Web Pages Walkthrough 
 
 ## Home Page
 
@@ -258,22 +266,35 @@ Features to the Villas.
 Review Section
 <img width="1214" alt="Screenshot 2023-07-06 at 18 56 06" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/1a509896-6873-45ad-8f2d-32c5ea2f689e">
 
-## Images
+## Images Page
 
 The img page gives a total span of the Villas The feature to view each image in full size is added to the page. 
 
-![Uploading Screenshot 2023-07-06 at 18.59.22.png…]()
+<img width="444" alt="Screenshot 2023-07-06 at 18 59 22" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/4b8bfdd4-c0b7-4ccf-9971-717cc32abf22">
 
 
-## Contact
+## Contact Page
+
+The Contact Page is kept really simple for the User. The contact page links to the database where we can pick up the query.
+It allows the User to comment, attach their email & also name. 
+
+<img width="509" alt="Screenshot 2023-07-06 at 19 06 30" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b10d4ab3-f921-449c-b8e1-da79d1c02c9e">
+
 
 ## My Account- Login & Sign Up.
 
+Sign Up Page, this page targets a Username, Email & Password where the User creates an account which is stored in the database. 
+<img width="1276" alt="Screenshot 2023-07-06 at 19 13 23" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/94385046-1d20-48f1-8541-193831c44de1">
 
-Imagery-
+Login Page 
 
-The image on the site mainly consists of the architecture, I personally feel this is the main appeal as well as the location. 
-On the images page you can then zoom into the image to see them all.
+Contrasting Colours for the Log In Page so it isn't confused with the sign up. 
+
+<img width="603" alt="Screenshot 2023-07-06 at 19 13 44" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/57a6c40a-6f45-4e32-9c6e-54f926560ae4">
+
+
+
+
 
 
 
