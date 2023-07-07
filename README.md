@@ -17,17 +17,29 @@ https://ui.dev/amiresponsive Image
 # TABLE OF CONTENT
 
 - [LO SIMPLE](#lo-simple)
+- [TABLE OF CONTENT](#table-of-content)
 - [User Experience UX](#user-experience-ux)
   * [EPICS & USER STORIES](#epics---user-stories)
 - [Design](#design)
 - [Colour Scheme](#colour-scheme)
 - [Fonts](#fonts)
 - [WireFrames](#wireframes)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
+  * [DATABASE DIAGRAM](#database-diagram)
+- [BASE HTML & CSS WEBSITE LAYOUT.](#base-html---css-website-layout)
+  * [Title](#title)
+  * [Nav Bar](#nav-bar)
+  * [Footer](#footer)
+  * [Imagery](#imagery)
+- [Web Pages Walkthrough](#web-pages-walkthrough)
+  * [Home Page](#home-page)
+  * [Book & Success Page.](#book---success-page)
+  * [About Page](#about-page)
+  * [Images Page](#images-page)
+  * [Contact Page](#contact-page)
+  * [My Account- Login & Sign Up.](#my-account--login---sign-up)
+- [Testing](#testing)
+- [Languages](#languages)
+- [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
 
 
 
@@ -316,29 +328,29 @@ REGISTER.CSS - NO ERRORS
 
 # Languages
 
-HTML
-CSS
-PYTHON
-JAVASCRIPT
++ HTML
++ CSS
++ PYTHON
++ JAVASCRIPT
 
 # Frameworks - Libraries - Programs Used
 
-Django: Main python framework used in the development of this project
-PostgreSQL Used as the database for this project.
-Heroku - Used as the cloud-based platform to deploy the site.
-Am I Responsive - Used to verify responsiveness of website on different devices.
-Blasamiq - Used to create wireframes for both desktop and mobile visuals.
-Font Awesome - Used for icons on the home page and stars on the About page.
-GitHub - Used for version control and agile methodology.
-Google Fonts - Imported and used to change fonts on pages from default fonts.
-W3C - Used for HTML & CSS Validation.
-PEP8 Online - Used to validate all Python code pages in the project.
-Jshint - Used to validate the JavaScript page.
-Coolors - Used to create color scheme.
-Crispy Forms Used to manage Django Forms
-Bootstrap: CSS used for developing responsiveness and styling the website.
-Google: All images used were sourced from a Google search. 
-Airbnb page: used for inspiration. 
++ Django: Main python framework used in the development of this project
++ PostgreSQL Used as the database for this project.
++ Heroku - Used as the cloud-based platform to deploy the site.
++ Am I Responsive - Used to verify responsiveness of website on different devices.
++ Blasamiq - Used to create wireframes for both desktop and mobile visuals.
++ Font Awesome - Used for icons on the home page and stars on the About page.
++ GitHub - Used for version control and agile methodology.
++ Google Fonts - Imported and used to change fonts on pages from default fonts.
++ W3C - Used for HTML & CSS Validation.
++ PEP8 Online - Used to validate all Python code pages in the project.
++ Jshint - Used to validate the JavaScript page.
++ Coolors - Used to create color scheme.
++ Crispy Forms Used to manage Django Forms
++ Bootstrap: CSS used for developing responsiveness and styling the website.
++ Google: All images used were sourced from a Google search. 
++ Airbnb page: used for inspiration. 
 
 
 
