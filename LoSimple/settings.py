@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
                  'lo-simple-airbnb.herokuapp.com', 'localhost', 'lo-simple-airbnb-17df7fdde095.herokuapp.com',]
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
-CORS_ORIGIN_ALLOW_ALL = True
+
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com', 'https://lo-simple-airbnb.herokuapp.com']
 
@@ -42,7 +42,7 @@ CSRF_TRUSTED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
-    'corsheaders',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,7 +58,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

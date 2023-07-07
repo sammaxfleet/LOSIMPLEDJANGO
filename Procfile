@@ -1,1 +1,1 @@
-web: gunicorn LoSimple.wsgi:application
+web: gunicorn LoSimple.wsgi
