@@ -323,22 +323,22 @@ JAVASCRIPT
 
 # Frameworks - Libraries - Programs Used
 
-Django: Main python framework used in the development of this project
-PostgreSQL Used as the database for this project.
-Heroku - Used as the cloud-based platform to deploy the site.
-Am I Responsive - Used to verify responsiveness of website on different devices.
-Blasamiq - Used to create wireframes for both desktop and mobile visuals.
-Font Awesome - Used for icons on the home page and stars on the About page.
-GitHub - Used for version control and agile methodology.
-Google Fonts - Imported and used to change fonts on pages from default fonts.
-W3C - Used for HTML & CSS Validation.
-PEP8 Online - Used to validate all Python code pages in the project.
-Jshint - Used to validate the JavaScript page.
-Coolors - Used to create color scheme.
-Crispy Forms Used to manage Django Forms
-Bootstrap: CSS used for developing responsiveness and styling the website.
-Google: All images used were sourced from a Google search. 
-Airbnb page: used for inspiration. 
++ Django: Main python framework used in the development of this project
++ PostgreSQL Used as the database for this project.
++ Heroku - Used as the cloud-based platform to deploy the site.
++ Am I Responsive - Used to verify responsiveness of website on different devices.
++ Blasamiq - Used to create wireframes for both desktop and mobile visuals.
++ Font Awesome - Used for icons on the home page and stars on the About page.
++ GitHub - Used for version control and agile methodology.
++ Google Fonts - Imported and used to change fonts on pages from default fonts.
++ W3C - Used for HTML & CSS Validation.
++ PEP8 Online - Used to validate all Python code pages in the project.
++ Jshint - Used to validate the JavaScript page.
++ Coolors - Used to create color scheme.
++ Crispy Forms Used to manage Django Forms
++ Bootstrap: CSS used for developing responsiveness and styling the website.
++ Google: All images used were sourced from a Google search. 
++ Airbnb page: used for inspiration. 
 
 
 
