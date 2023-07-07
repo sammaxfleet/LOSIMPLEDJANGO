@@ -17,17 +17,29 @@ https://ui.dev/amiresponsive Image
 # TABLE OF CONTENT
 
 - [LO SIMPLE](#lo-simple)
+- [TABLE OF CONTENT](#table-of-content)
 - [User Experience UX](#user-experience-ux)
   * [EPICS & USER STORIES](#epics---user-stories)
 - [Design](#design)
 - [Colour Scheme](#colour-scheme)
 - [Fonts](#fonts)
 - [WireFrames](#wireframes)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
+  * [DATABASE DIAGRAM](#database-diagram)
+- [BASE HTML & CSS WEBSITE LAYOUT.](#base-html---css-website-layout)
+  * [Title](#title)
+  * [Nav Bar](#nav-bar)
+  * [Footer](#footer)
+  * [Imagery](#imagery)
+- [Web Pages Walkthrough](#web-pages-walkthrough)
+  * [Home Page](#home-page)
+  * [Book & Success Page.](#book---success-page)
+  * [About Page](#about-page)
+  * [Images Page](#images-page)
+  * [Contact Page](#contact-page)
+  * [My Account- Login & Sign Up.](#my-account--login---sign-up)
+- [Testing](#testing)
+- [Languages](#languages)
+- [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
 
 
 
