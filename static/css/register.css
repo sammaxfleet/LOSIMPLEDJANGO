@@ -2,8 +2,8 @@
     width: 1110px;
     height: 624px;
     background-color: #ADD8E6;
-    font-family: Clarendon LT,
-        Lulo Clean, Georgia;
+    font-family: 'Clarendon LT',
+        'Lulo Clean', Georgia;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -40,7 +40,7 @@
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-family: Clarendon LT, Lulo Clean, Georgia;
+    font-family: 'Clarendon LT', 'Lulo Clean', Georgia;
 }
 
 .btn_signup {
