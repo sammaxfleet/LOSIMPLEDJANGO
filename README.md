@@ -316,10 +316,10 @@ REGISTER.CSS - NO ERRORS
 
 # Languages
 
-HTML
-CSS
-PYTHON
-JAVASCRIPT
++ HTML
++ CSS
++ PYTHON
++ JAVASCRIPT
 
 # Frameworks - Libraries - Programs Used
 
