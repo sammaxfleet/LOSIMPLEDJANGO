@@ -1,5 +1,5 @@
- 
-  document.addEventListener('DOMContentLoaded', function () {
+
+document.addEventListener('DOMContentLoaded', function () {
     // Get the modal element
     const modal = document.getElementById('imageModal');
 
@@ -11,22 +11,22 @@
 
     // Function to open the modal
     function openModal(imageSrc) {
-      modal.style.display = 'block';
-      modalImage.src = imageSrc;
+        modal.style.display = 'block';
+        modalImage.src = imageSrc;
     }
 
     // Function to close the modal
     function closeModal() {
-      modal.style.display = 'none';
+        modal.style.display = 'none';
     }
 
     // Add click event listeners to all modal triggers
     for (let i = 0; i < modalTriggers.length; i++) {
-      modalTriggers[i].addEventListener('click', function (event) {
-        event.preventDefault(); // Prevent the link's default action
-        const imageSrc = this.getAttribute('href');
-        openModal(imageSrc);
-      });
+        modalTriggers[i].addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the link's default action
+            const imageSrc = this.getAttribute('href');
+            openModal(imageSrc);
+        });
     }
 
     // Add click event listener to close the modal when the close button is clicked
@@ -34,8 +34,8 @@
 
     // Add click event listener to close the modal when clicking outside the modal content
     window.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        closeModal();
-      }
+        if (event.target === modal) {
+            closeModal();
+        }
     });
-  });
+});
