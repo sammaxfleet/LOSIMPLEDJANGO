@@ -50,3 +50,10 @@ input[type="submit"] {
     height: 100%;
 
 }
+
+.bookButton {
+    background-color: whitesmoke;
+    border: 2px solid #6495ed;
+    color: #973c54;
+    font-family: 'Clarendon LT', 'Lulo Clean', 'Georgia';
+}

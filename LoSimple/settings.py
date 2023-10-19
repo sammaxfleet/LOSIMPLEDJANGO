@@ -11,9 +11,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-import os
 import dj_database_url
-if os.path.isfile("env.py"):
+import os
+if os.path.exists("env.py"):
     import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -29,10 +29,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
-                 'lo-simple-airbnb.herokuapp.com', 'localhost', 'lo-simple-airbnb-17df7fdde095.herokuapp.com',]
+                 'lo-simple-airbnb.herokuapp.com', 'localhost', 'lo-simple-airbnb-17df7fdde095.herokuapp.com', '8000-sammaxfleet-losimpledjan-svsy5p2ytu.us2.codeanyapp.com']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 

@@ -22,11 +22,14 @@ body {
     margin-top: 10px;
     background-color: #5f233f;
     color: azure;
+    border: 2px solid azure;
+    height: 150%;
 }
 
 .book-button:hover {
     color: #6495ed;
     background-color: #89CFF0;
+    border: 2px solid azure;
 }
 
 .image-container {
@@ -133,3 +136,5 @@ body {
     font-family: 'Clarendon LT',
         'Lulo Clean', Georgia;
 }
+
+.bookbutton {}
