@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.shortcuts import render, get_object_or_404
@@ -22,10 +22,17 @@ def hotel_list(request):
 
 def book_hotel(request, hotel_id):
     hotel = get_object_or_404(Hotel, id=hotel_id)
-
+    check_in_date = request.POST.get('check_in_date')
+    check_out_date = request.POST.get('check_out_date')
+    my_books = Booking.objects.filter(user=request.user).all()
+    checked_dates = []
+    for checked_date in my_books:
+        checked_dates.append(checked_date.check_in_date)
+        checked_dates.append(checked_date.check_out_date)
+    if check_in_date in checked_dates:
+        return redirect('book_hotel')
     if request.method == 'POST':
-        check_in_date = request.POST.get('check_in_date')
-        check_out_date = request.POST.get('check_out_date')
+
         user = request.user
         booking = Booking(hotel=hotel, user=user,
                           check_in_date=check_in_date, check_out_date=check_out_date)
