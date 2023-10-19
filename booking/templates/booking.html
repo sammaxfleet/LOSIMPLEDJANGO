@@ -22,7 +22,7 @@
         // Calculate the number of days between the dates
         var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
         var hotelprice = document.getElementById('hotelprice').innerHTML;
-        totalvalue.innerHTML = hotelprice * diffDays;
+        totalvalue.innerHTML = "Total = £" + (hotelprice * diffDays).toString();
 
     }
 
