@@ -11,31 +11,54 @@
 <h3 id="hotelprice" hidden>{{ hotel.price}}</h3>
 <script>
     function calculate_total_price(totalvalue) {
-
         var check_in_date = document.getElementById('check_in_date').value;
         var check_out_date = document.getElementById('check_out_date').value;
         var startDate = new Date(check_in_date);
         var endDate = new Date(check_out_date);
+
         // Calculate the time difference in milliseconds
         var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
 
         // Calculate the number of days between the dates
         var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
         var hotelprice = document.getElementById('hotelprice').innerHTML;
+
         totalvalue.innerHTML = "Total = £" + (hotelprice * diffDays).toString();
 
+        // Send AJAX request to check_date_overlap view
+        $.ajax({
+            url: '{% url "booking:check_date_overlap" %}',
+            data: {
+                'check_in_date': check_in_date,
+                'check_out_date': check_out_date,
+            },
+            dataType: 'json',
+            success: function (data) {
+                if (data.overlap) {
+                    // Dates overlap, disable the bookButton and display a message
+                    document.getElementById('bookButton').disabled = true;
+                    document.getElementById('message').innerHTML = "You already booked for some dates.";
+                    document.getElementById('message').style.color = 'red';
+                } else {
+                    // Dates do not overlap, enable the bookButton and clear the message
+                    document.getElementById('bookButton').disabled = false;
+                    document.getElementById('message').innerHTML = "";
+                }
+            }
+        });
     }
 
 </script>
-
+<p id="message"></p>
 <form id="bookingForm" method="post">
     {% csrf_token %}
     <label for="check_in_date">Check-in Date:</label>
-    <input type="date" id="check_in_date" name="check_in_date" required>
+    <input type="date" id="check_in_date" name="check_in_date" required
+        onchange="calculate_total_price(document.getElementById('totalprice'))">
 
     <label for="check_out_date">Check-out Date:</label>
-    <input type="date" id="check_out_date" name="check_out_date"
-        onchange="calculate_total_price(document.getElementById('totalprice'))" required>
+    <input type="date" id="check_out_date" name="check_out_date" required
+        onchange="calculate_total_price(document.getElementById('totalprice'))">
 
     <button id="bookButton" type="button">Book Now</button>
 </form>

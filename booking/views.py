@@ -1,8 +1,6 @@
-from django.shortcuts import render, redirect
-
-# Create your views here.
 from django.shortcuts import render, get_object_or_404
 from .models import Hotel, Booking
+from django.http import JsonResponse
 
 
 def hotel_list(request):
@@ -41,3 +39,19 @@ def book_hotel(request, hotel_id):
         return render(request, 'success.html', {'hotel': hotel, 'booking': booking})
 
     return render(request, 'booking.html', {'hotel': hotel})
+
+
+def check_date_overlap(request):
+    check_in_date = request.GET.get('check_in_date')
+    check_out_date = request.GET.get('check_out_date')
+
+    # Query the database to check for overlapping bookings
+    overlapping_bookings = Booking.objects.filter(
+        check_in_date__lt=check_out_date,
+        check_out_date__gt=check_in_date,
+        user=request.user,
+    )
+
+    overlap = overlapping_bookings.exists()
+
+    return JsonResponse({'overlap': overlap})
