@@ -54,7 +54,7 @@ The Scope & Main site goals.
 - To make the site interactive with login/Sign up & reviews.
 - To provide the user with a smooth experience page to page.
 
-Project Milestones-
+## Project Milestones-
 
 I’ve used the MoSCoW prioritisation technique for the user stories.
 
@@ -67,30 +67,30 @@ Agile Methodology:
 
 ## EPICS & USER STORIES
 
-Epic 1 - Wireframes
+### Epic 1 - Wireframes
 
 User story
 
 1. As the developer I can create wireframes to make the website easier to build, for time management sticking to the agile approach. **MUST HAVE**
 
-Epic 2 - Install Django
+### Epic 2 - Install Django
 
 User Story-
 
 1. Install Django smoothly.
 
-Epic 3 - Colours
+### Epic 3 - Colours
 
 1. Complimentary colours to navigate through the website so the viewers is experience is calming & representative of the holiday. **SHOULD HAVE**
 2. The website colours have continuity and the layout from bootstrap/customized css. **SHOULD HAVE**
 
-Epic 4 - Navbar
+### Epic 4 - Navbar
 
 1. Get the Navbar working from page to page - **MUST HAVE**
 2. Be able to scroll and the colour change on what page you’re own. **COULD HAVE**
 3. Have a scroll down on the login/ sign up page. **SHOULD HAVE**
 
-Epic 5 - Be able to sign up/login via a form to set up an account & CRUD.
+### Epic 5 - Be able to sign up/login via a form to set up an account & CRUD.
 
 User Story
 
@@ -98,7 +98,7 @@ User Story
 2. Make sure the User can delete the account. **MUST HAVE**
 3. Password & email restrictions to protect user such as double using email, or short passwords **SHOULD HAVE**
 
-Epic 6 - Be able to book by selecting dates & price.
+### Epic 6 - Be able to book by selecting dates & price.
 
 User Story
 
@@ -107,37 +107,37 @@ User Story
 3. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
 4. Be able to cancel the booking. **SHOULD HAVE**
 
-Epic 7- Working map with location
+### Epic 7- Working map with location
 
 User Story
 
 1. The map be able to show the location of the villa with a working gps.
 
-Epic 8 - Contact Form
+### Epic 8 - Contact Form
 
 1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
-Epic 9 Map be able to operate -
+### Epic 9 Map be able to operate -
 
 1.Working map so the user can see location **COULD HAVE**
 2.The map pick up the users location too, **WONT HAVE**
 
-Epic 10 - Reviews
+### Epic 10 - Reviews
 
 1. Be able to leave a review - **COULD HAVE**
 
-Epic 11 - CRUD working for the database admin & the User experience.
+### Epic 11 - CRUD working for the database admin & the User experience.
 
 1. CRUD working for databaseadmin **MUSTHAVE**
 2. CRUD working for the user **MUST HAVE**
 
-EPIC 12- Responsiveness
+### EPIC 12- Responsiveness
 
 User Story-
 
 1. Check responsiveness.
 
-EPIC 13- TESTING
+### EPIC 13- TESTING
 
 User Story-
 
