@@ -3,6 +3,22 @@ from .models import Hotel, Booking
 from django.http import JsonResponse
 
 
+def my_books(request):
+    my_books = Booking.objects.filter(user=request.user).all()
+    allhotels = []
+    for book in my_books:
+        allhotels.append({
+            "name": book.hotel.name,
+            "description": book.hotel.description,
+            "image": book.hotel.image,
+            "price": book.hotel.price,
+            "hotel_id": book.hotel.id,
+            "book_id": book.id,
+
+        })
+    return render(request, 'my_books.html', {'hotels': allhotels})
+
+
 def hotel_list(request):
     hotels = Hotel.objects.all().order_by('name')
     allhotels = []

@@ -6,5 +6,6 @@ app_name = 'booking'
 urlpatterns = [
     path('book/', hotel_list, name='hotel_list'),
     path('book/<int:hotel_id>/', book_hotel, name='book_hotel'),
+    path('my_books/', my_books, name='my_books'),
     path('check_date_overlap/', check_date_overlap, name='check_date_overlap'),
 ]

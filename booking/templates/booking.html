@@ -37,7 +37,7 @@
                 if (data.overlap) {
                     // Dates overlap, disable the bookButton and display a message
                     document.getElementById('bookButton').disabled = true;
-                    document.getElementById('message').innerHTML = "You already booked for some dates.";
+                    document.getElementById('message').innerHTML = "Past dates are not possible.";
                     document.getElementById('message').style.color = 'red';
                 } else {
                     // Dates do not overlap, enable the bookButton and clear the message
