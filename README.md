@@ -67,6 +67,18 @@ Agile Methodology:
 
 ## EPICS & USER STORIES
 
+
+I used the following mile stones as Epics when creating the project, which you can find here https://github.com/users/sammaxfleet/projects/5 in a Kanban board display. 
+
+1. Installation
+2. Design
+3. Booking System Functionality
+4. CRUD Booking System
+5. CRUD User Account
+6. Sign Up/ Log In Functionality 
+7. Testing
+8. CRUD Database. 
+
 ### Epic 1 - Wireframes
 
 User story
