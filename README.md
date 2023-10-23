@@ -54,7 +54,7 @@ The Scope & Main site goals.
 - To make the site interactive with login/Sign up & reviews.
 - To provide the user with a smooth experience page to page.
 
-## Project Milestones-
+## AGILE METHODOLOGY
 
 I’ve used the MoSCoW prioritisation technique for the user stories.
 
@@ -63,9 +63,9 @@ I’ve used the MoSCoW prioritisation technique for the user stories.
 - Could Have
 - Won’t Have
 
-Agile Methodology:
 
-## EPICS & USER STORIES
+
+## EPICS/ MILESTONES  & USER STORIES
 
 
 I used the following mile stones as Epics when creating the project, which you can find here https://github.com/users/sammaxfleet/projects/5 in a Kanban board display. 
