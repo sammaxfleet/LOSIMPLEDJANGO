@@ -289,6 +289,9 @@ Location is imperative for anyone on a vacation. The map show's the location and
 The Booking option, there are 4 villas available for booking. This page you are able to scroll through the description and see the aesthetic of Apartment 1.
 The book button lights up blue before it navigates the user to the next page. The page is desigend for the user to easily navigate throught the booking process, the text is kept in black and the buttons grey here with it being a financial booking so it's more of a formal process for the user & no nright colours are throwing off the user.
 
+<img width="1251" alt="Screenshot 2023-10-24 at 16 34 06" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/0880fe40-e4e5-44db-a5bc-18ba82859b76">
+
+
 <img width="1118" alt="Screenshot 2023-07-06 at 18 31 02" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/66a2b421-3723-4b5f-9086-4aba40b8d12a">
 
 Check in Date- Check Out Date are available to click on, changing the dates also changes the price.
@@ -340,6 +343,19 @@ Login Page
 Contrasting Colours for the Log In Page so it isn't confused with the sign up.
 
 <img width="603" alt="Screenshot 2023-07-06 at 19 13 44" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/57a6c40a-6f45-4e32-9c6e-54f926560ae4">
+
+My Bookings Page
+
+
+<img width="1435" alt="Screenshot 2023-10-24 at 16 31 22" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/915104cf-7d8a-4922-8dbc-0635610a5532">
+
+
+Edit Booking
+
+<img width="914" alt="Screenshot 2023-10-24 at 16 33 15" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6797f612-874e-4a14-8588-ee0ecd2e698f">
+
+
+
 
 # Testing
 
