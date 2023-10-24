@@ -418,6 +418,26 @@ This project was deployed to Heroku using the following steps.
 19. The app should be up and running now, so click the “Open app” button
 
 
+Local Deployment- 
+
+
+### How to Fork
+To fork the Eponymous Bosch repository:
+
+### Login (or sign up) to GitHub.
+Go to the repository for this project, at GitHub Repository.
+Click the Fork button in the top right corner.
+
+### How to Clone
+To clone the Eponymous Bosch repository:
+
+Login (or sign up) to GitHub.
+Go to the repository for this project, at GitHub Repository.
+Above the list of files, click "Code".
+Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
+Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
+Click "Clone".
+
 
 # Testing
 
