@@ -355,37 +355,6 @@ Edit Booking
 <img width="914" alt="Screenshot 2023-10-24 at 16 33 15" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6797f612-874e-4a14-8588-ee0ecd2e698f">
 
 
-
-
-# Testing
-
-All CSS was checked with the
-https://jigsaw.w3.org/css-validator/#validate_by_input
-
-BASE.CSS - NO ERRORS
-HOME.CSS - NO ERRORS
-ABOUT.CSS - NO ERRORS
-BOOK.CSS - NO ERRORS
-BOOKING.CSS - NO ERRORS
-IMAGE_MODAL.CSS - NO ERROS
-IMAGES.CSS - NO ERRORS
-LOGIN.CSS - NO ERRORS
-MODAL.CSS - NO ERRORS
-REGISTER.CSS - NO ERRORS
-
-
-
-HTML NO ERRORS ONLY ON 1 PAGE WHICH SEEMS TO HAVE A PROBLEM WITH THE FOOTER I CAN'T GET RID OF - THE IMGS.HTML PAGE. 
-
-TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY. 
-
-# Languages
-
-- HTML
-- CSS
-- PYTHON
-- JAVASCRIPT
-
 # Frameworks - Libraries - Programs Used
 
 - Django: Main python framework used in the development of this project
@@ -405,4 +374,77 @@ TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY.
 - Google: All images used were sourced from a Google search.
 - Airbnb page: used for inspiration.
 
-DEPLOYMENT
+
+
+# Deployment & Local Development 
+
+## Deployment
+This project was deployed to Heroku using the following steps.
+
+
+## Elephant SQL
+
+1. Navigate to ElephantSQL.com and create a user account, by using the log-in with GitHub option.
+2. Click “Create New Instance”.
+3. Set up your plan. (You can leave the 'tags' field blank.)
+4. Select a region.
+5. Select a data centre near you
+6. Then click “Review”.
+7. Check your details are correct and then click “Create instance”.
+8. Return to the ElephantSQL dashboard and click on the database instance name for this project
+9. In the URL section, clicking the copy icon will copy the database URL to your clipboard
+10. Leave this tab open, we will come back here later
+
+
+## Heroku 
+
+1. Log into Heroku.com, click “New” and then “Create a new app”
+2. Choose a unique name for your app, select the region closest to you, and click “Create app”.
+3. Go to the Settings tab of your new app
+4. Click Reveal Config Vars
+5. Return to your ElephantSQL tab and copy your database URL
+6. Back on Heroku, add a Config Var called DATABASE_URL and paste your ElephantSQL database URL in as the value. Make sure you click “Add.”
+7. Add each of your other environment variables except DEVELOPMENT and DB_URL from the env.py file as a Config Var.
+8. Navigate to the “Deploy” tab of your app.
+9. select “Connect to GitHub” in the Deployment method section.
+10. Search for your repo and click Connect
+11. Optional: You can click Enable Automatic Deploys in case you make any further changes to the project. This will trigger any time code is pushed to your GitHub repository.
+12. As we already have all our changes pushed to GitHub, we will use the Manual Deploy section and click Deploy Branch. This will start the build process.
+13. Now, we have our project in place, and we have an empty database ready for use. As you may remember from our local development, we still need to add our tables to our database. To do this, we can click 14. the “More” button and select “Run console.”
+15. Type python3 into the console and click Run
+16. In the terminal that opens, write "from eponymous_bosch import db" and then press enter.
+17. In the terminal, write "db.create_all()" and then press enter.
+18. Exit the Python terminal, by typing exit() and hitting enter, and close the console. Our Heroku database should now have the tables and columns created from our models.py file.
+19. The app should be up and running now, so click the “Open app” button
+
+
+
+# Testing
+
+All CSS was checked with the
+https://jigsaw.w3.org/css-validator/#validate_by_input
+
+BASE.CSS - NO ERRORS
+HOME.CSS - NO ERRORS
+ABOUT.CSS - NO ERRORS
+BOOK.CSS - NO ERRORS
+BOOKING.CSS - NO ERRORS
+IMAGE_MODAL.CSS - NO ERROS
+IMAGES.CSS - NO ERRORS
+LOGIN.CSS - NO ERRORS
+MODAL.CSS - NO ERRORS
+REGISTER.CSS - NO ERRORS
+
+
+HTML NO ERRORS ONLY ON 1 PAGE WHICH SEEMS TO HAVE A PROBLEM WITH THE FOOTER I CAN'T GET RID OF - THE IMGS.HTML PAGE. 
+
+TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY. 
+
+
+# Languages
+
+- HTML
+- CSS
+- PYTHON
+- JAVASCRIPT
+
