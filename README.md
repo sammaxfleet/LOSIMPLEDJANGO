@@ -1,20 +1,25 @@
 # LO SIMPLE
 
+
+
+
 Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
 The site brings a touch of peace, simplicity, sunlight & rejuvenation to the viewers experience.
 It aims at an audience wanting to take a spring/summer break.
-The property is located in Barcelona in Spain which is shown via a map in its design. 
-The site has a smooth booking system designed to make the holiday booking as easy as possible. It sells the experience to the user with images/ social connects & reviews for the User to engage with & see what other people thought about their stay.  
+The property is located in Barcelona in Spain which is shown via a map on the homepage in its design. 
+The site has a booking system to book the villa, it sells the experience to the user with images/ social connects & reviews for the User to engage with & see what other people thought about their stay.  
 
-A live link to follow to the site is here
+A live link to follow to the site can be found here - 
 
-"https://lo-simple-airbnb-17df7fdde095.herokuapp.com/”
 
-https://ui.dev/amiresponsive Image Responsiveness 
 
-# TABLE OF CONTENT
+Am I Responsive link - 
+
+https://ui.dev/amiresponsive 
+
+# TABLE OF CONTENTS
 
 - [LO SIMPLE](#lo-simple)
 - [TABLE OF CONTENT](#table-of-content)
@@ -43,6 +48,8 @@ https://ui.dev/amiresponsive Image Responsiveness
 
 # User Experience UX
 
+
+
 The Airbnb is aimed at friends/ families to take time out.
 The simplicity is definitely aimed at people between 21-50 because of it’s contemporary upto date furnishings.
 The website provides info and booking capability for the users trip.
@@ -54,6 +61,8 @@ The Scope & Main site goals.
 - To make the site interactive with login/Sign up & reviews.
 - To provide the user with a smooth experience page to page.
 
+  
+
 ## AGILE METHODOLOGY
 
 I’ve used the MoSCoW prioritisation technique for the user stories.
@@ -62,6 +71,9 @@ I’ve used the MoSCoW prioritisation technique for the user stories.
 - Should Have
 - Could Have
 - Won’t Have
+
+
+
 
 
 ## EPICS/ MILESTONES  & USER STORIES
@@ -78,74 +90,106 @@ I used the following mile stones as Epics when creating the project, which you c
 7. Testing
 8. CRUD Database. 
 
-### Epic 1 - M/S Design - User Story Wireframes
 
-User story
+
+### Epic 1 - M/S - Design |  User Stories -  Wireframes
+
+User Stories - 
 
 1. As the developer I can create wireframes to make the website easier to build, for time management sticking to the agile approach. **MUST HAVE**
 
-###  Epic 2 - M/S Installation - User Story Install Django
 
-User Story-
+###  Epic 2 - M/S Installation |  User Stories -  Install Django
 
-1. Install Django smoothly.
+User Stories -
 
-### Epic 3 -  M/S Design - User Story Colours
+1. Install Django smoothly, & any plug ins needed.  **MUST HAVE**
+2. Connect to Heroku
+3. Connect Pep8 & prettier
+
+ 
+### Epic 3  - M/S CRUD DATABASE - User Story- Super User working and Data Basse fucntioning
+   
+User stories - 
+
+1. CRUD working for databaseadmin **MUSTHAVE**
+2. CRUD working for the user **MUST HAVE**
+
+### Epic 4 -  M/S Design |  User Stories -  Colours
+
+User Stories - 
 
 1. Complimentary colours to navigate through the website so the viewers is experience is calming & representative of the holiday. **SHOULD HAVE**
 2. The website colours have continuity and the layout from bootstrap/customized css. **SHOULD HAVE**
 
-### Epic 4 - M/S Design - User Story Navbar
+### Epic 5 - M/S Design | User Stories -  Navbar
+
+User Stories - 
 
 1. Get the Navbar working from page to page - **MUST HAVE**
 2. Be able to scroll and the colour change on what page you’re own. **COULD HAVE**
 3. Have a scroll down on the login/ sign up page. **SHOULD HAVE**
 
-### Epic 5 - SIGN UP/LOGIN - User Story Be able to sign up/login via a form to set up an account & CRUD.
+ 
+### Epic 6- M/S Design | User Story - Page features
+
+User Stories - 
+
+1. The map be able to show the location of the villa with a working gps. **COULD HAVE**
+2. Be able to leave a review **COULD HAVE**
+3. Be slick and easy to navigate  **SHOULD HAVE**
+4. The Navbar have dissapearing functions **SHOULD HAVE**
+5. Images of the Airbnb **SHOULD HAVE**
+6. Reviews **COULD HAVE**
 
 
+## Epic 7 M/S Design | pages needed
 
-1. Set up a working form, make sure the user is able to sign up from scracth and another option with is a 'log in' when details are already signed up. **MUST HAVE**
-2. Make sure the User can delete the account. **MUST HAVE**
+1. Home Page
+2. Book
+3. About
+4. Images
+5. Contact
+6. My Account
+7. Log In
+8. Sign Up
+
+Interconnecting pages
+
+1. Booking Success
+2. Form Confrimation Page
+3. My Bookings
+
+   
+### Epic 7 - M/S  SIGN UP/LOGIN -| User story - User able to sign up/login and CRUD functionality for Account
+
+User Stories - 
+
+1. Set up a working form, make sure the user is able to sign up and another option with a 'log in' page - when details are already signed up. **MUST HAVE**
+2. Make sure the User can edit/ delete the account. **MUST HAVE**
 3. Password & email restrictions to protect user such as double using email, or short passwords **SHOULD HAVE**
+4. Login Function sign up page dissapears **SHOULD HAVE**
+5. SignUp Function login page disappears - **SHOULD HAVE**
+   
 
-### Epic 6 - M/S BOOKING - User Story - Be able to book by selecting dates & price.
+### Epic 8 - M/S BOOKING | User Story - Booking functionality 
 
+User Stories - 
 
 1. Booking calendar, make sure it shows bookings & prices. **MUST HAVE**
 2. Prevent double bookings. **SHOULD HAVE**
 3. Allow it to go to a confirmed page once clicked. **SHOULD HAVE**
 4. Be able to cancel the booking. **SHOULD HAVE**
 
-### Epic 7- M/S Design User Story - Working map with location
 
-User Story
+### Epic 9- M/S SIGNUP/LOGIN User story - Contact Form
 
-1. The map be able to show the location of the villa with a working gps.
-
-### Epic 8 - M/S SIGNUP/LOGIN User story - Contact Form
+User Stories - 
 
 1.Have a working form that connects via email to the admin. **SHOULD HAVE**
 
-### Epic 9 M/S Design - User story Map be able to operate 
 
-1.Working map so the user can see location **COULD HAVE**
-2.The map pick up the users location too, **WONT HAVE**
-
-### Epic 10 -  M/S DESIGN - User Stories Reviews
-
-1. Be able to leave a review - **COULD HAVE**
-
-### Epic 11 - M/S CRUD DATABASE - User story CRUD working for the database admin & the User experience.
-
-1. CRUD working for databaseadmin **MUSTHAVE**
-2. CRUD working for the user **MUST HAVE**
-
-### EPIC 12- M/S DESIGN - User story Responsiveness 
-
-1. Check responsiveness works on all different platforms, send it to yourself and other peopel to check it's working on different device sizes. 
-
-### EPIC 13- M/S TESTING - 
+### EPIC 10- M/S TESTING - 
 
 User Story-
 
@@ -155,6 +199,10 @@ User Story-
 4. Test Responsiveness
 5. Test html/ css
 6. Test Javascript
+7.  User story Responsiveness
+
+
+
 
 # Design
 
@@ -340,3 +388,5 @@ TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY.
 - Bootstrap: CSS used for developing responsiveness and styling the website.
 - Google: All images used were sourced from a Google search.
 - Airbnb page: used for inspiration.
+
+DEPLOYMENT
