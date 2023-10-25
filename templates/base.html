@@ -30,6 +30,7 @@
 
                         {% if user.is_authenticated %}
                         <a href="{% url 'logout_view' %}">Logout</a>
+                        <a href="{% url 'myprofile_view' %}">My Profile</a>
                         <a href="{% url 'booking:my_books' %}">My Bookings</a>
                         {% else %}
                         <a href="{% url 'register' %}">Sign Up</a>

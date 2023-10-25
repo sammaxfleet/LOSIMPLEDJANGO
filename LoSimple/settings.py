@@ -29,15 +29,19 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
-                 'lo-simple-airbnb.herokuapp.com', 'localhost', 'lo-simple-airbnb-17df7fdde095.herokuapp.com', '8000-sammaxfleet-losimpledjan-svsy5p2ytu.us2.codeanyapp.com']
+                 'lo-simple-airbnb.herokuapp.com', 'localhost',
+                 'lo-simple-airbnb-17df7fdde095.herokuapp.com',
+                 '8000-sammaxfleet-losimpledjan-svsy5p2ytu.us2.codeanyapp.com']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com', 'https://lo-simple-airbnb.herokuapp.com']
+    'https://8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
+    'https://lo-simple-airbnb.herokuapp.com'
+    ]
 
 
 # Application definition
@@ -74,7 +78,7 @@ ROOT_URLCONF = 'LoSimple.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -103,16 +107,20 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation'
+        and '.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation'
+        and '.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation'
+        and '.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation'
+        and '.NumericPasswordValidator',
     },
 ]
 

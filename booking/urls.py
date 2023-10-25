@@ -1,5 +1,9 @@
 from django.urls import path
-from .views import book_hotel, hotel_list, check_date_overlap, my_books, book_edit, delete_book
+from .views import (
+    book_hotel, hotel_list,
+    check_date_overlap, my_books,
+    book_edit, delete_book
+    )
 
 app_name = 'booking'
 

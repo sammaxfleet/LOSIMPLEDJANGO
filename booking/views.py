@@ -69,10 +69,12 @@ def book_hotel(request, hotel_id):
     if request.method == 'POST':
         user = request.user
         booking = Booking(hotel=hotel, user=user,
-                          check_in_date=check_in_date, check_out_date=check_out_date)
+                          check_in_date=check_in_date,
+                          check_out_date=check_out_date)
         booking.save()
 
-        return render(request, 'success.html', {'hotel': hotel, 'booking': booking})
+        return render(request, 'success.html', {'hotel': hotel,
+                                                'booking': booking})
 
     return render(request, 'booking.html', {'hotel': hotel})
 
