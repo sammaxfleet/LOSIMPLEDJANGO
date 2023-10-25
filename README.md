@@ -441,10 +441,17 @@ Click "Clone".
 
 # Testing
 
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along. Both manual testing and validation was employed.
+
+I tested the page and had 3 people also manually test it on their own devices. For validation, I used the W3C validator, CSS validator, Python Linter, JSHint validator, and Lighthouse.
+
+
+
 All CSS was checked with the
+
 https://jigsaw.w3.org/css-validator/#validate_by_input
 
-BASE.CSS - NO ERRORS
+BASE.CSS - NO ERRORS  
 HOME.CSS - NO ERRORS
 ABOUT.CSS - NO ERRORS
 BOOK.CSS - NO ERRORS
@@ -456,7 +463,15 @@ MODAL.CSS - NO ERRORS
 REGISTER.CSS - NO ERRORS
 
 
-HTML NO ERRORS ONLY ON 1 PAGE WHICH SEEMS TO HAVE A PROBLEM WITH THE FOOTER I CAN'T GET RID OF - THE IMGS.HTML PAGE. 
+HTML Testing
+
+
+
+
+Python Testing
+
+
+
 
 TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY. 
 
