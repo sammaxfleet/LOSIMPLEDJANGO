@@ -465,7 +465,7 @@ REGISTER.CSS - NO ERRORS
 
 HTML Testing
 
-BASE.HTML 
+[BASE.HTML ]
 (<img width="1418" alt="Basehtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ebe6c067-40e2-4991-9880-f859a804af24">)
 
 
