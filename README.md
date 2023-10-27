@@ -11,13 +11,12 @@ It aims at an audience wanting to take a spring/summer break.
 The property is located in Barcelona in Spain which is shown via a map on the homepage in its design. 
 The site has a booking system to book the villa, it sells the experience to the user with images/ social connects & reviews for the User to engage with & see what other people thought about their stay.  
 
-A live link to follow to the site can be found here - 
+A live link to follow to the site can be found here - https://lo-simple-airbnb-17df7fdde095.herokuapp.com/
+
+Am I Responsive link - <img width="1007" alt="Screenshot 2023-10-27 at 15 21 16" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3bc09343-e8a3-4615-bdd9-d38a52a341e6">
 
 
 
-Am I Responsive link - 
-
-https://ui.dev/amiresponsive 
 
 # TABLE OF CONTENTS
 
