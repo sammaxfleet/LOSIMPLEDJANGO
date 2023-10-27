@@ -355,6 +355,9 @@ Edit Booking
 <img width="914" alt="Screenshot 2023-10-24 at 16 33 15" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6797f612-874e-4a14-8588-ee0ecd2e698f">
 
 
+
+
+
 # Frameworks - Libraries - Programs Used
 
 - Django: Main python framework used in the development of this project
@@ -381,6 +384,58 @@ Edit Booking
 ## Deployment
 This project was deployed to Heroku using the following steps.
 
+
+
+# DJANGO
+
+1. This project is built on the Django framework. Django can be installed by following the steps below:
+
+2. In your chosen IDE type the command: pip3 install django
+
+3. To create an name your project use the command: django-admin startproject <your_project_name> .
+
+4. A gitignore file is an important addition as you can specify which files should not be uploaded to the Github repo, such as database credentials.
+
+5. A gitignore file can be created in the CLI using the command: touch .gitignore
+
+6. To check django has been installed and your project created successfully, type the following command: python3 manage.py runserver
+
+7. Following the link provided in the CLI should display the Django landing page.
+
+8. Next, initial database migrations need to be completed. This can be achieved with the command: python3 manage.py migrate
+
+9. You can see the changes to be made without executing them with the command: python3 manage.py migrate --plan
+
+10. In order to have access to the admin panel, a superuser is required. This is created with the command: python3 manage.py createsuperuser
+
+11. This will then ask you to create a username and password with an optional email address.
+
+12. Once these steps are completed you can push your changes to Github using the commands below in order, or with the interface in your chosen IDE:
+
+git add .
+git commit -m "initial commit"
+git push
+
+
+Local Deployment - GitHub 
+
+
+### How to Fork
+To fork the Eponymous Bosch repository:
+
+### Login (or sign up) to GitHub.
+Go to the repository for this project, at GitHub Repository.
+Click the Fork button in the top right corner.
+
+### How to Clone
+To clone the Eponymous Bosch repository:
+
+Login (or sign up) to GitHub.
+Go to the repository for this project, at GitHub Repository.
+Above the list of files, click "Code".
+Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
+Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
+Click "Clone".
 
 ## Elephant SQL
 
@@ -416,29 +471,6 @@ This project was deployed to Heroku using the following steps.
 17. In the terminal, write "db.create_all()" and then press enter.
 18. Exit the Python terminal, by typing exit() and hitting enter, and close the console. Our Heroku database should now have the tables and columns created from our models.py file.
 19. The app should be up and running now, so click the “Open app” button
-
-
-Local Deployment- 
-
-
-### How to Fork
-To fork the Eponymous Bosch repository:
-
-### Login (or sign up) to GitHub.
-Go to the repository for this project, at GitHub Repository.
-Click the Fork button in the top right corner.
-
-### How to Clone
-To clone the Eponymous Bosch repository:
-
-Login (or sign up) to GitHub.
-Go to the repository for this project, at GitHub Repository.
-Above the list of files, click "Code".
-Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
-Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
-Click "Clone".
-
-
 # Testing
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along. Both manual testing and validation was employed.
@@ -451,12 +483,13 @@ All CSS was checked with the
 
 https://jigsaw.w3.org/css-validator/#validate_by_input
 
-BASE.CSS - NO ERRORS  
-HOME.CSS - NO ERRORS
-ABOUT.CSS - NO ERRORS
-BOOK.CSS - NO ERRORS
-BOOKING.CSS - NO ERRORS
-IMAGE_MODAL.CSS - NO ERROS
+BASE.CSS - NO ERRORS  <img width="1416" alt="Basecss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/49f974bb-b3f6-433a-a7c8-3a2ff303283d">
+HOME.CSS - NO ERRORS  <img width="1397" alt="homecss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/f7645b24-912d-485d-9f8c-c298f6034025">
+ABOUT.CSS - NO ERRORS <img width="1424" alt="AboutCSS" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/55ec1c24-7d18-44b1-b08d-6293ebcbbc0e">
+BOOK.CSS - NO ERRORS <img width="1428" alt="bookscss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/52a125a5-7e31-468a-8c63-2ea7968b00b8">
+BOOKING.CSS - NO ERRORS <img width="1416" alt="Bookingcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/cd92b45d-9e9d-4400-b2c5-128852060a83">
+IMAGE_MODAL.CSS - NO ERROS 
+
 IMAGES.CSS - NO ERRORS
 LOGIN.CSS - NO ERRORS
 MODAL.CSS - NO ERRORS
@@ -465,7 +498,7 @@ REGISTER.CSS - NO ERRORS
 
 HTML Testing
 
-[BASE.HTML ]
+
 (<img width="1418" alt="Basehtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ebe6c067-40e2-4991-9880-f859a804af24">)
 
 
