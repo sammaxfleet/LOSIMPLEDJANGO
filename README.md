@@ -471,6 +471,10 @@ Click "Clone".
 17. In the terminal, write "db.create_all()" and then press enter.
 18. Exit the Python terminal, by typing exit() and hitting enter, and close the console. Our Heroku database should now have the tables and columns created from our models.py file.
 19. The app should be up and running now, so click the “Open app” button
+
+
+
+
 # Testing
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along. Both manual testing and validation was employed.
@@ -479,7 +483,7 @@ I tested the page and had 3 people also manually test it on their own devices. F
 
 
 
-All CSS was checked with the
+# CSS 
 
 https://jigsaw.w3.org/css-validator/#validate_by_input
 
@@ -496,10 +500,38 @@ REGISTER.CSS - NO ERRORS <img width="1401" alt="registercss" src="https://github
 
 
 
-HTML Testing
 
 
-(<img width="1418" alt="Basehtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ebe6c067-40e2-4991-9880-f859a804af24">)
+# HTML Testing
+
+Checked with the html validator https://validator.w3.org/
+
+BASE.HTML - <img width="1418" alt="Basehtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/090b86ac-d658-48c3-ba39-0349f407fa23">
+ABOUT.HTML -<img width="1421" alt="About Html" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/de1077d4-1ef4-44e5-be3c-965321381e21">
+BOOKING.HTML - <img width="1427" alt="bookinghtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/46b7ee0c-7c75-4028-a970-323d4498a1f5">
+IMAGES.HTML - <img width="1411" alt="imageshtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/322fafee-7d04-46d2-91ea-56a25cf91bfc">
+CONTACT.HTML - <img width="1420" alt="Contacthtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/40254fd0-9d86-4f37-a9d2-10eb31370b64">
+REGISTER.HTML - <img width="1412" alt="signuphtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/134aa08a-016e-4338-82ea-23cd176d03ea">
+LOGIN.HTML - <img width="1415" alt="Loginhtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/327de153-82d0-48e3-b4b0-11abdc8690b6">
+BOOKINGSUCCESS.HTML - <img width="1422" alt="Bookingsuccesshtml " src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b5032b98-571a-40c1-a47a-081293899e6c">
+MYBOOKS.HTML - <img width="1400" alt="mybookshtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/2bfaa85a-41e8-4210-a483-809c4fc5f12d">
+BOOK.HTML - <img width="1387" alt="Bookhtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b3a98b2-597a-4a31-989f-01b432ede0e8">
+
+
+
+# PEP8 TESTING 
+
+
+APP: 
+
+
+
+
+
+
+
+
+
 
 
 Python Testing
