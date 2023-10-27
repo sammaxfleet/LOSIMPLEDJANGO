@@ -14,7 +14,7 @@
 
 
 
-Site Description:
+# Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
 The site brings a touch of peace, simplicity, sunlight & rejuvenation to the viewers experience.
@@ -510,6 +510,21 @@ Click "Clone".
 
 # Testing
 
+# Fixing bugs
+When not logged in as a User the booking system will throw you to this page. 
+
+<img width="1414" alt="Screenshot 2023-10-27 at 19 22 52" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6e2112af-522d-443a-b82a-d7f62d79d79e">
+
+I fixed this by adding a looop that you're not able to book. 
+
+<img width="719" alt="Screenshot 2023-10-27 at 19 24 46" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/4ad800c5-b005-4e41-8ded-1f51fac3a33b">
+
+Error with Sign up, not accepting
+
+
+
+
+
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along. Both manual testing and validation was employed.
 
 I tested the page and had 3 people also manually test it on their own devices. For validation, I used the W3C validator, CSS validator, Python Linter, JSHint validator, and Lighthouse.
@@ -618,6 +633,16 @@ Models.py - <img width="1169" alt="Bookingmodels" src="https://github.com/sammax
 Apps.py - <img width="1188" alt="Bookingapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/40eb2aa5-d634-44d7-b544-e362da853bd5">
 
 Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3c209b6a-cf04-4d6d-b30e-7170a2870246">
+
+
+
+# JAVASCRIPT TESTING
+
+
+
+
+
+
 
 
 
