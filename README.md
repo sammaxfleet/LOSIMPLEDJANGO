@@ -521,8 +521,62 @@ BOOK.HTML - <img width="1387" alt="Bookhtml" src="https://github.com/sammaxfleet
 
 # PEP8 TESTING 
 
+https://pep8ci.herokuapp.com/ validator wass used 
 
-APP: 
+
+Main App: Lo Simple
+
+Wsgi.py
+Urls.py
+Settings.py
+Asgi.py
+
+
+APP: User
+
+Views.py <img width="1324" alt="user views" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/abf26865-dc45-4f5f-aadd-5ff93a072bb4">
+
+Urls.py  <img width="1214" alt="userurls" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b9d3a77c-bf23-413e-8485-e5f4eadee0e7">
+
+Tests.py <img width="1012" alt="UserTests" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/fb5dccbb-47e0-4277-b621-4f0de64c6f92">
+
+Models.py <img width="1171" alt="usermodels" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/eab1ec87-2cca-42d0-9484-f30b6f2e3da9">
+
+Forms.py <img width="1200" alt="userforms" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6e96071a-2ead-4ef3-a860-75340720bbcd">
+
+Apps.py  <img width="1269" alt="userapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3c4e4565-2361-4525-8ef0-bb1ffafc959d">
+
+Admin.py <img width="1276" alt="useradmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6462896f-dd42-4f17-9ad2-d30af3ae3e4f">
+
+
+
+App: Home
+
+Views.py <img width="1390" alt="homeviews" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/f33fae36-128f-4b18-bec1-a03fc64a7a27">
+
+Urls.py <img width="1220" alt="Homeurls" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ff93880a-10e0-41aa-a9ea-ee40733718cf">
+
+Tests.py <img width="1255" alt="hometests" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/20ad3092-1db4-42ca-b87c-d066844f2fe3">
+
+Models.py <img width="1164" alt="Homemodels" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/243a41b8-8209-465e-a035-cbed02a196cf">
+
+Forms.py <img width="1318" alt="homeforms" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e6ee218a-0810-4a5c-bf35-da9d43535d2f">
+
+Apps.py <img width="1270" alt="homeapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3a764bd3-36c0-4225-abeb-3197109e3c5d">
+
+Admin.py <img width="1150" alt="homeadmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/5c499a30-99e5-4d5f-a08c-b986850c5062">
+
+
+
+App: Booking
+
+Views.py
+Urls.py
+Tests.py
+Models.py
+Apps.py
+Admin.py
+
 
 
 
