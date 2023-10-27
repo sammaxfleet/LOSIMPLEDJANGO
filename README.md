@@ -570,12 +570,22 @@ Admin.py <img width="1150" alt="homeadmin" src="https://github.com/sammaxfleet/L
 
 App: Booking
 
-Views.py
-Urls.py
-Tests.py
-Models.py
-Apps.py
-Admin.py
+
+Views.py - <img width="1271" alt="Bookingviews" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/afaf9fe2-1d2b-479a-a8de-f2a8e1a6780e">
+
+Urls.py - <img width="1208" alt="bookingurls" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d06af304-a5f8-4751-aa3f-9b2acfb41286">
+
+
+Tests.py - <img width="1181" alt="Bookingtests" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d635fba0-d21a-478b-836b-98e5de36ae5b">
+
+
+Models.py - <img width="1169" alt="Bookingmodels" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e133b081-ec57-4972-88d1-e15742fa2db9">
+
+
+Apps.py - <img width="1188" alt="Bookingapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/40eb2aa5-d634-44d7-b544-e362da853bd5">
+
+Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3c209b6a-cf04-4d6d-b30e-7170a2870246">
+
 
 
 
