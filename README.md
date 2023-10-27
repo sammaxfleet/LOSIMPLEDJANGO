@@ -22,29 +22,51 @@ https://ui.dev/amiresponsive
 # TABLE OF CONTENTS
 
 - [LO SIMPLE](#lo-simple)
-- [TABLE OF CONTENT](#table-of-content)
 - [User Experience UX](#user-experience-ux)
-  - [EPICS & USER STORIES](#epics---user-stories)
+  * [AGILE METHODOLOGY](#agile-methodology)
+  * [EPICS/ MILESTONES  & USER STORIES](#epics--milestones----user-stories)
+    + [Epic 1 - M/S - Design |  User Stories -  Wireframes](#epic-1---m-s---design----user-stories----wireframes)
+    + [Epic 2 - M/S Installation |  User Stories -  Install Django](#epic-2---m-s-installation----user-stories----install-django)
+    + [Epic 3  - M/S CRUD DATABASE - User Story- Super User working and Data Basse fucntioning](#epic-3----m-s-crud-database---user-story--super-user-working-and-data-basse-fucntioning)
+    + [Epic 4 -  M/S Design |  User Stories -  Colours](#epic-4----m-s-design----user-stories----colours)
+    + [Epic 5 - M/S Design | User Stories -  Navbar](#epic-5---m-s-design---user-stories----navbar)
+    + [Epic 6- M/S Design | User Story - Page features](#epic-6--m-s-design---user-story---page-features)
+  * [Epic 7 M/S Design | pages needed](#epic-7-m-s-design---pages-needed)
+    + [Epic 7 - M/S  SIGN UP/LOGIN -| User story - User able to sign up/login and CRUD functionality for Account](#epic-7---m-s--sign-up-login----user-story---user-able-to-sign-up-login-and-crud-functionality-for-account)
+    + [Epic 8 - M/S BOOKING | User Story - Booking functionality](#epic-8---m-s-booking---user-story---booking-functionality)
+    + [Epic 9- M/S SIGNUP/LOGIN User story - Contact Form](#epic-9--m-s-signup-login-user-story---contact-form)
+    + [EPIC 10- M/S TESTING -](#epic-10--m-s-testing--)
 - [Design](#design)
 - [Colour Scheme](#colour-scheme)
 - [Fonts](#fonts)
 - [WireFrames](#wireframes)
-  - [DATABASE DIAGRAM](#database-diagram)
+  * [DATABASE DIAGRAM](#database-diagram)
 - [BASE HTML & CSS WEBSITE LAYOUT.](#base-html---css-website-layout)
-  - [Title](#title)
-  - [Nav Bar](#nav-bar)
-  - [Footer](#footer)
-  - [Imagery](#imagery)
+  * [Title](#title)
+  * [Nav Bar](#nav-bar)
+  * [Footer](#footer)
+  * [Imagery](#imagery)
 - [Web Pages Walkthrough](#web-pages-walkthrough)
-  - [Home Page](#home-page)
-  - [Book & Success Page.](#book---success-page)
-  - [About Page](#about-page)
-  - [Images Page](#images-page)
-  - [Contact Page](#contact-page)
-  - [My Account- Login & Sign Up.](#my-account--login---sign-up)
-- [Testing](#testing)
-- [Languages](#languages)
+  * [Home Page](#home-page)
+  * [Book & Success Page.](#book---success-page)
+  * [About Page](#about-page)
+  * [Images Page](#images-page)
+  * [Contact Page](#contact-page)
+  * [My Account- Login & Sign Up.](#my-account--login---sign-up)
 - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+- [Deployment & Local Development](#deployment---local-development)
+  * [Deployment](#deployment)
+- [DJANGO](#django)
+    + [How to Fork](#how-to-fork)
+    + [Login (or sign up) to GitHub.](#login--or-sign-up--to-github)
+    + [How to Clone](#how-to-clone)
+  * [Elephant SQL](#elephant-sql)
+  * [Heroku](#heroku)
+- [Testing](#testing)
+- [CSS](#css)
+- [HTML Testing](#html-testing)
+- [PEP8 TESTING](#pep8-testing)
+- [Languages](#languages)
 
 # User Experience UX
 
@@ -587,24 +609,6 @@ Apps.py - <img width="1188" alt="Bookingapps" src="https://github.com/sammaxflee
 Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3c209b6a-cf04-4d6d-b30e-7170a2870246">
 
 
-
-
-
-
-
-
-
-
-
-
-
-Python Testing
-
- 
-
-
-
-TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY. 
 
 
 # Languages
