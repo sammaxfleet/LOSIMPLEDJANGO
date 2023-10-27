@@ -1,5 +1,16 @@
 # LO SIMPLE
 
+## Things worked on since last submitt 
+
+- Sign Up page disappears once logged in.
+- CRUD functionality for the user once logged in with the 'My Profile' Page being and to edite or delete profile. 
+- Booking system Functionality, preventing double booking or being able to book on previous dates.
+- 'My Booking page' enabling the user to edit bookings with the CRUD function.
+- Full Testing applied HTML.CSS ,PEP 8, JAVSCRIPT.
+- More attention & detail to the Deployment on ReadMe
+- More regular and clearer commits
+- User stories in the Repository with Milestones.
+- Cleaned up some Design Features, especially with the booking system. 
 
 
 
@@ -13,7 +24,7 @@ The site has a booking system to book the villa, it sells the experience to the 
 
 A live link to follow to the site can be found here - https://lo-simple-airbnb-17df7fdde095.herokuapp.com/
 
-Am I Responsive link - <img width="1007" alt="Screenshot 2023-10-27 at 15 21 16" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3bc09343-e8a3-4615-bdd9-d38a52a341e6">
+Am I Responsive link : <img width="1007" alt="Screenshot 2023-10-27 at 15 21 16" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3bc09343-e8a3-4615-bdd9-d38a52a341e6">
 
 
 
