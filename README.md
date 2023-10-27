@@ -488,12 +488,12 @@ HOME.CSS - NO ERRORS  <img width="1397" alt="homecss" src="https://github.com/sa
 ABOUT.CSS - NO ERRORS <img width="1424" alt="AboutCSS" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/55ec1c24-7d18-44b1-b08d-6293ebcbbc0e">
 BOOK.CSS - NO ERRORS <img width="1428" alt="bookscss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/52a125a5-7e31-468a-8c63-2ea7968b00b8">
 BOOKING.CSS - NO ERRORS <img width="1416" alt="Bookingcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/cd92b45d-9e9d-4400-b2c5-128852060a83">
-IMAGE_MODAL.CSS - NO ERROS 
+IMAGE_MODAL.CSS - NO ERROS <img width="1407" alt="image_modalcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6adae505-a893-4a96-87fc-fdda8189a363">
+IMAGES.CSS - NO ERRORS <img width="1408" alt="imagescss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/1be8be81-a970-48a2-bbab-7a8674ee3beb">
+LOGIN.CSS - NO ERRORS <img width="1427" alt="LoginCSS" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d20ab5d8-3c8e-43af-85ff-7158d1dd4b89">
+MODAL.CSS - NO ERRORS <img width="1427" alt="modalcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e5734f27-4360-4e2c-ad66-8a4853358459">
+REGISTER.CSS - NO ERRORS <img width="1401" alt="registercss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/722717bb-c3f5-4654-859b-fde94e16e4ab">
 
-IMAGES.CSS - NO ERRORS
-LOGIN.CSS - NO ERRORS
-MODAL.CSS - NO ERRORS
-REGISTER.CSS - NO ERRORS
 
 
 HTML Testing
