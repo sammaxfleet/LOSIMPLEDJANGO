@@ -93,8 +93,9 @@ I’ve used the MoSCoW prioritisation technique for the user stories.
 - Could Have
 - Won’t Have
 
+Link to User Stories in Repository 
 
-
+https://github.com/users/sammaxfleet/projects/5/views/1
 
 
 ## EPICS/ MILESTONES  & USER STORIES
