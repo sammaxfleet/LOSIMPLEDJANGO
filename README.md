@@ -618,3 +618,9 @@ Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxf
 - PYTHON
 - JAVASCRIPT
 
+
+# ThankYou
+
+
+Thanks to my mentor Rory who helped guide me through this project, the tutors at code institute & all the course material.
+This is my submission for Django Portfolio Project 4. 
