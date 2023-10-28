@@ -13,6 +13,7 @@ def register(request):
         password = request.POST.get('password1', '')
         email = request.POST.get('email', '')
         if User.objects.filter(username=username, email=email).first():
+            messages.error(request, 'Email or Username already exists')
             return redirect('home')
         user = User(username=username, email=email, password=password)
         user.save()

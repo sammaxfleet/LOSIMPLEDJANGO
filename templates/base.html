@@ -48,6 +48,16 @@
 
         <h1 class="title"> LO SIMPLE</h1>
         <main>
+            {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                <li class="message {{ message.tags }}" style="">
+                    <span class="close-button" onclick="this.parentElement.style.display='none';">&times;</span>
+                    {{ message }}
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
             {% block content %}
             <!-- The content of individual app pages will be inserted here -->
             {% endblock %}
