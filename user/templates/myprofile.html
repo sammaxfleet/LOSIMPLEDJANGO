@@ -4,34 +4,52 @@
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
 
-<div class="form-container">
-    <form method="POST">
-        {% csrf_token %}
-        <div class="form-group">
-            {{ form.username.errors }}
-            <input type="text" class="form-control" name="username" placeholder="Username" required>
-        </div>
-        <div class="form-group">
-            {{ form.email.errors }}
-            <input type="email" class="form-control" name="email" placeholder="Email" required>
-        </div>
-        <div class="form-group">
-            {{ form.password1.errors }}
-            <input type="password" class="form-control" name="password1" placeholder="Password" required>
-        </div>
-        <button type="submit" class="btn_signup">Delete</button>
-        <button type="submit" class="btn_signup">Save</button>
+<h2 style="color: #973c54; text-align: center;, font-family: Clarendon LT, Lulo Clean, Georgia;">Update</h2>
+<br>
+<div class="account-container">
+    <div class="form-container">
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form.username.errors }}
+                <input type="text" class="form-control" name="username" placeholder="Username"
+                    value="{{user.username}}">
+            </div>
+            <div class="form-group">
+                {{ form.email.errors }}
+                <input type="email" class="form-control" name="email" placeholder="Email" value="{{user.email}}">
+            </div>
+            <button type="submit" class="btn_signup">Update</button>
 
-        {% if form.errors %}
-        <div class="alert alert-danger mt-3">
-            <ul>
-                {% for field in form %}
-                {% for error in field.errors %}
-                <li>{{ error }}</li>
-                {% endfor %}
-                {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-    </form>
-    {% endblock %}
+            {% if form.errors %}
+            <div class="alert alert-danger mt-3">
+                <ul>
+                    {% for field in form %}
+                    {% for error in field.errors %}
+                    <li>{{ error }}</li>
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </form>
+
+        <form id="deleteForm" action="{% url 'delete_my_profile' %}" method="post">
+            {% csrf_token %}
+            <button type="button" class="btn_signup" onclick="confirmDelete()">Delete</button>
+        </form>
+
+    </div>
+</div>
+
+
+<script>
+    function confirmDelete() {
+        var result = confirm("Are you sure you want to delete your profile?");
+        if (result) {
+            document.getElementById("deleteForm").submit();
+        }
+    }
+</script>
+
+{% endblock %}

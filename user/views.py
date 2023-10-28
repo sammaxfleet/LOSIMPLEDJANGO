@@ -1,23 +1,27 @@
-from django.shortcuts import redirect
+from django.shortcuts import redirect, render
 from django.contrib.auth import logout
 from django.contrib.auth import login, authenticate
-from django.shortcuts import render, redirect
 from .forms import RegisterForm, LoginForm
+from django.contrib.auth.models import User
+from django.contrib import messages
 
 
 def register(request):
     if request.method == 'POST':
-        form = RegisterForm(request.POST)
-        if form.is_valid():
-            form.save()
-            username = form.cleaned_data.get('username')
-            password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=password)
-            login(request, user)
+
+        username = request.POST.get('username', '')
+        password = request.POST.get('password1', '')
+        email = request.POST.get('email', '')
+        if User.objects.filter(username=username, email=email).first():
             return redirect('home')
-    else:
-        form = RegisterForm()
-    return render(request, 'register.html', {'form': form})
+        user = User(username=username, email=email, password=password)
+        user.save()
+        authenticate(username=username, password=password)
+        login(request, user)
+
+        return redirect('home')
+
+    return render(request, 'register.html')
 
 
 def user_login(request):
@@ -44,6 +48,26 @@ def logout_view(request):
     return redirect('home')
 
 
-def myprofile_view(request):
+def myprofile(request):
+    user_profile = request.user
+    user = {"username": user_profile.username, "email": user_profile.email}
 
-    return render(request, 'myprofile.html')
+    if request.method == 'POST':
+        username = request.POST.get('username', '')
+        email = request.POST.get('email', '')
+        user_profile.username = username
+        user_profile.email = email
+        user_profile.save()
+        return redirect('myprofile')
+
+    return render(request, 'myprofile.html', {"user": user})
+
+
+def delete_my_profile(request):
+    if request.method == 'POST':
+        request.user.delete()
+        logout(request)
+
+        return redirect('home')
+    else:
+        redirect('home')
