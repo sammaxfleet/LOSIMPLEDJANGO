@@ -17,8 +17,9 @@
             check_out_date = check_in_date;
         }
         var startDate = new Date(check_in_date);
-        var endDate = new Date(check_out_date);
-        if (startDate > endDate) {
+        var endDate = new Date(check_out_date
+        ); var currentDate = new Date();
+        if (startDate > endDate || startDate > currentDate) {
 
             document.getElementById('bookButton').disabled = true;
             document.getElementById('message').innerHTML = "Please select a correct date range!";
@@ -46,7 +47,7 @@
                 if (data.overlap) {
                     // Dates overlap, disable the bookButton and display a message
                     document.getElementById('bookButton').disabled = true;
-                    document.getElementById('message').innerHTML = "These dates are already booked!.";
+                    document.getElementById('message').innerHTML = "Dates Unavailable.";
                     document.getElementById('message').style.color = 'red';
                 } else {
                     // Dates do not overlap, enable the bookButton and clear the message
@@ -56,6 +57,7 @@
             }
         });
     }
+
 
 </script>
 <p id="message"></p>

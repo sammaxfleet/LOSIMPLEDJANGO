@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from .models import Hotel, Booking
 from django.http import JsonResponse
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 
 
 def hotel_list(request):
@@ -63,13 +64,12 @@ def delete_book(request, book_id):
     return redirect('booking:my_books')
 
 
+@login_required
 def book_hotel(request, hotel_id):
     hotel = get_object_or_404(Hotel, id=hotel_id)
     check_in_date = request.POST.get('check_in_date')
     check_out_date = request.POST.get('check_out_date')
-    if not request.user.is_authenticated:
-        messages.error(request, 'You cannot book withlout login')
-        return redirect('login_view')
+
     if request.method == 'POST':
         user = request.user
         booking = Booking(hotel=hotel, user=user,
