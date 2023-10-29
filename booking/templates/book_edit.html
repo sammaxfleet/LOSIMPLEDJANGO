@@ -2,39 +2,41 @@
 {% load static %}
 
 {% block content %}
-  <link rel="stylesheet" type="text/css" href="{% static 'css/edit_book.css' %}">
-  <div class="container">
-  <div class="form-container">
-    <h2>Edit Booking</h2>
-    <form method="post">
-      {% csrf_token %}
-      <input type="hidden" name="book_id" value="{{ book.book_id }}">
-      <div class="form-group">
-        <label>Hotel Name: {{ book.name }}</label>
-      </div>
-      <div class="form-group">
-        <label >Description: {{ book.description }}</label>
-      </div>
-      <div class="form-group">
-        <img style="width:100%; height:100%;" src="{{ book.image.url }}" alt="OPS!">
-      </div>
-      <div class="form-group">
-        <label >Price: {{ book.price }}</label>
-      </div>
+<link rel="stylesheet" type="text/css" href="{% static 'css/edit_book.css' %}">
+<div class="container">
+    <div class="form-container">
+        <h2>Edit Booking</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="book_id" value="{{ book.book_id }}">
+            <div class="form-group">
+                <label>Hotel Name: {{ book.name }}</label>
+            </div>
+            <div class="form-group">
+                <label>Description: {{ book.description }}</label>
+            </div>
+            <div class="form-group">
+                <img style="width:100%; height:100%;" src="{{ book.image.url }}" alt="OPS!">
+            </div>
+            <div class="form-group">
+                <label>Price: {{ book.price }}</label>
+            </div>
 
-      <p id="message"></p>
+            <p id="message"></p>
 
-      <div class="form-group">
-        <label for="check_in_date">Check-in Date:</label>
-        <input type="date" class="form-control" id="check_in_date" name="check_in_date" value="{{ book.check_in_date|date:'Y-m-d' }}" onchange="check_date()">
+            <div class="form-group">
+                <label for="check_in_date">Check-in Date:</label>
+                <input type="date" class="form-control" id="check_in_date" name="check_in_date"
+                    value="{{ book.check_in_date|date:'Y-m-d' }}" onchange="check_date()">
+            </div>
+            <div class="form-group">
+                <label for="check_out_date">Check-out Date:</label>
+                <input type="date" class="form-control" id="check_out_date" name="check_out_date"
+                    value="{{ book.check_out_date|date:'Y-m-d' }}" onchange="check_date()">
+            </div>
+            <button type="submit" id="savebtn" class="save-btn">Save Changes</button>
+        </form>
     </div>
-    <div class="form-group">
-        <label for="check_out_date">Check-out Date:</label>
-        <input type="date" class="form-control" id="check_out_date" name="check_out_date" value="{{ book.check_out_date|date:'Y-m-d' }}" onchange="check_date()">
-    </div>
-      <button type="submit" id="savebtn" class="save-btn">Save Changes</button>
-    </form>
-  </div>
 </div>
 
 
@@ -42,17 +44,20 @@
     function check_date() {
         var check_in_date = document.getElementById('check_in_date').value;
         var check_out_date = document.getElementById('check_out_date').value;
+        if (!check_out_date) {
+            check_out_date = check_in_date;
+        }
         var startDate = new Date(check_in_date);
         var endDate = new Date(check_out_date);
-    
+
         if (startDate > endDate) {
-        
+
             document.getElementById('savebtn').disabled = true;
             document.getElementById('message').innerHTML = "Please select a correct date range!";
             document.getElementById('message').style.color = 'red';
-            return;  
+            return;
         }
-    
+
         $.ajax({
             url: '{% url "booking:check_date_overlap" %}',
             data: {
@@ -74,7 +79,7 @@
             }
         });
     }
-    
+
 
 </script>
 

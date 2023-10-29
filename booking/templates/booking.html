@@ -13,6 +13,9 @@
     function calculate_total_price(totalvalue) {
         var check_in_date = document.getElementById('check_in_date').value;
         var check_out_date = document.getElementById('check_out_date').value;
+        if (!check_out_date) {
+            check_out_date = check_in_date;
+        }
         var startDate = new Date(check_in_date);
         var endDate = new Date(check_out_date);
         if (startDate > endDate) {
@@ -43,7 +46,7 @@
                 if (data.overlap) {
                     // Dates overlap, disable the bookButton and display a message
                     document.getElementById('bookButton').disabled = true;
-                    document.getElementById('message').innerHTML = "Past dates are not possible.";
+                    document.getElementById('message').innerHTML = "These dates are already booked!.";
                     document.getElementById('message').style.color = 'red';
                 } else {
                     // Dates do not overlap, enable the bookButton and clear the message

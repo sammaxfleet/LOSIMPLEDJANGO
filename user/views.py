@@ -51,7 +51,6 @@ def logout_view(request):
 
 def myprofile(request):
     user_profile = request.user
-    user = {"username": user_profile.username, "email": user_profile.email}
 
     if request.method == 'POST':
         username = request.POST.get('username', '')
@@ -61,7 +60,7 @@ def myprofile(request):
         user_profile.save()
         return redirect('myprofile')
 
-    return render(request, 'myprofile.html', {"user": user})
+    return render(request, 'myprofile.html')
 
 
 def delete_my_profile(request):
