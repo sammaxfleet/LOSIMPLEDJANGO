@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = False
 
 DISABLE_COLLECTSTATIC = 1
 
@@ -37,9 +37,10 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
-                 'lo-simple-airbnb.herokuapp.com', 'localhost',
+                 'localhost',
                  'lo-simple-airbnb-17df7fdde095.herokuapp.com',
-                 '8000-sammaxfleet-losimpledjan-svsy5p2ytu.us2.codeanyapp.com']
+                 '8000-sammaxfleet-losimpledjan-svsy5p2ytu.us2.codeanyapp.com',
+                 ]
 
 
 CSRF_TRUSTED_ORIGINS = [
