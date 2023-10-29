@@ -371,23 +371,35 @@ It allows the User to comment, attach their email & also name.
 Sign Up Page, this page targets a Username, Email & Password where the User creates an account which is stored in the database.
 <img width="1276" alt="Screenshot 2023-07-06 at 19 13 23" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/94385046-1d20-48f1-8541-193831c44de1">
 
-Login Page
+## Login Page
 
 Contrasting Colours for the Log In Page so it isn't confused with the sign up.
 
 <img width="603" alt="Screenshot 2023-07-06 at 19 13 44" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/57a6c40a-6f45-4e32-9c6e-54f926560ae4">
 
-My Bookings Page
+
+## Added Pages
+
+
+##My Bookings Page,
+This allow the user to review their booking 
 
 
 <img width="1435" alt="Screenshot 2023-10-24 at 16 31 22" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/915104cf-7d8a-4922-8dbc-0635610a5532">
 
 
-Edit Booking
+## Edit Booking
+
+This allows the user to adjust bookings if they have changed their mind. 
 
 <img width="914" alt="Screenshot 2023-10-24 at 16 33 15" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6797f612-874e-4a14-8588-ee0ecd2e698f">
 
+## My Profile
 
+This page allows the user to edit profile 
+
+
+<img width="1283" alt="Screenshot 2023-10-29 at 18 17 06" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/df19ef9c-9f3b-4ac0-ac40-18f93aee92bc">
 
 
 
@@ -416,7 +428,6 @@ Edit Booking
 
 ## Deployment
 This project was deployed to Heroku using the following steps.
-
 
 
 # DJANGO
@@ -450,7 +461,7 @@ git commit -m "initial commit"
 git push
 
 
-Local Deployment - GitHub 
+# Local Deployment - GitHub 
 
 
 ### How to Fork
@@ -507,7 +518,6 @@ Click "Clone".
 
 
 
-
 # Testing
 
 # Fixing bugs
@@ -520,7 +530,6 @@ I fixed this by adding a looop that you're not able to book.
 <img width="719" alt="Screenshot 2023-10-27 at 19 24 46" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/4ad800c5-b005-4e41-8ded-1f51fac3a33b">
 
 Error with Sign up, not accepting
-
 
 
 
@@ -638,6 +647,8 @@ Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxf
 
 # JAVASCRIPT TESTING
 
+The JS was tested using JSHINT https://jshint.com/
+
 
 
 
@@ -655,7 +666,7 @@ Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxf
 - JAVASCRIPT
 
 
-# ThankYou
+# ThankYou & Acknowledgement 
 
 
 Thanks to my mentor Rory who helped guide me through this project, the tutors at code institute & all the course material.
