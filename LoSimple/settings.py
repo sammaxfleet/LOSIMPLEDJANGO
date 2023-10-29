@@ -31,18 +31,16 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = True
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
+DISABLE_COLLECTSTATIC = 1
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
                  'lo-simple-airbnb.herokuapp.com', 'localhost',
                  'lo-simple-airbnb-17df7fdde095.herokuapp.com',
                  '8000-sammaxfleet-losimpledjan-svsy5p2ytu.us2.codeanyapp.com']
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-sammaxfleet-losimpledjan-z4m0h0bmhc.us2.codeanyapp.com',
