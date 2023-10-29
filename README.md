@@ -1,9 +1,20 @@
 # LO SIMPLE
 
+## Things worked on since last submitt 
+
+- Sign Up page disappears once logged in.
+- CRUD functionality for the user once logged in with the 'My Profile' Page being and to edite or delete profile. 
+- Booking system Functionality, preventing double booking or being able to book on previous dates.
+- 'My Booking page' enabling the user to edit bookings with the CRUD function.
+- Full Testing applied HTML.CSS ,PEP 8, JAVSCRIPT.
+- More attention & detail to the Deployment on ReadMe
+- More regular and clearer commits
+- User stories in the Repository with Milestones.
+- Cleaned up some Design Features, especially with the booking system. 
 
 
 
-Site Description:
+# Site Description:
 
 Lo Simple Is an Airbnb with a less is more aesthetic.
 The site brings a touch of peace, simplicity, sunlight & rejuvenation to the viewers experience.
@@ -11,40 +22,61 @@ It aims at an audience wanting to take a spring/summer break.
 The property is located in Barcelona in Spain which is shown via a map on the homepage in its design. 
 The site has a booking system to book the villa, it sells the experience to the user with images/ social connects & reviews for the User to engage with & see what other people thought about their stay.  
 
-A live link to follow to the site can be found here - 
+A live link to follow to the site can be found here - https://lo-simple-airbnb-17df7fdde095.herokuapp.com/
+
+Am I Responsive link : <img width="1007" alt="Screenshot 2023-10-27 at 15 21 16" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3bc09343-e8a3-4615-bdd9-d38a52a341e6">
 
 
 
-Am I Responsive link - 
-
-https://ui.dev/amiresponsive 
 
 # TABLE OF CONTENTS
 
 - [LO SIMPLE](#lo-simple)
-- [TABLE OF CONTENT](#table-of-content)
 - [User Experience UX](#user-experience-ux)
-  - [EPICS & USER STORIES](#epics---user-stories)
+  * [AGILE METHODOLOGY](#agile-methodology)
+  * [EPICS/ MILESTONES  & USER STORIES](#epics--milestones----user-stories)
+    + [Epic 1 - M/S - Design |  User Stories -  Wireframes](#epic-1---m-s---design----user-stories----wireframes)
+    + [Epic 2 - M/S Installation |  User Stories -  Install Django](#epic-2---m-s-installation----user-stories----install-django)
+    + [Epic 3  - M/S CRUD DATABASE - User Story- Super User working and Data Basse fucntioning](#epic-3----m-s-crud-database---user-story--super-user-working-and-data-basse-fucntioning)
+    + [Epic 4 -  M/S Design |  User Stories -  Colours](#epic-4----m-s-design----user-stories----colours)
+    + [Epic 5 - M/S Design | User Stories -  Navbar](#epic-5---m-s-design---user-stories----navbar)
+    + [Epic 6- M/S Design | User Story - Page features](#epic-6--m-s-design---user-story---page-features)
+  * [Epic 7 M/S Design | pages needed](#epic-7-m-s-design---pages-needed)
+    + [Epic 7 - M/S  SIGN UP/LOGIN -| User story - User able to sign up/login and CRUD functionality for Account](#epic-7---m-s--sign-up-login----user-story---user-able-to-sign-up-login-and-crud-functionality-for-account)
+    + [Epic 8 - M/S BOOKING | User Story - Booking functionality](#epic-8---m-s-booking---user-story---booking-functionality)
+    + [Epic 9- M/S SIGNUP/LOGIN User story - Contact Form](#epic-9--m-s-signup-login-user-story---contact-form)
+    + [EPIC 10- M/S TESTING -](#epic-10--m-s-testing--)
 - [Design](#design)
 - [Colour Scheme](#colour-scheme)
 - [Fonts](#fonts)
 - [WireFrames](#wireframes)
-  - [DATABASE DIAGRAM](#database-diagram)
+  * [DATABASE DIAGRAM](#database-diagram)
 - [BASE HTML & CSS WEBSITE LAYOUT.](#base-html---css-website-layout)
-  - [Title](#title)
-  - [Nav Bar](#nav-bar)
-  - [Footer](#footer)
-  - [Imagery](#imagery)
+  * [Title](#title)
+  * [Nav Bar](#nav-bar)
+  * [Footer](#footer)
+  * [Imagery](#imagery)
 - [Web Pages Walkthrough](#web-pages-walkthrough)
-  - [Home Page](#home-page)
-  - [Book & Success Page.](#book---success-page)
-  - [About Page](#about-page)
-  - [Images Page](#images-page)
-  - [Contact Page](#contact-page)
-  - [My Account- Login & Sign Up.](#my-account--login---sign-up)
-- [Testing](#testing)
-- [Languages](#languages)
+  * [Home Page](#home-page)
+  * [Book & Success Page.](#book---success-page)
+  * [About Page](#about-page)
+  * [Images Page](#images-page)
+  * [Contact Page](#contact-page)
+  * [My Account- Login & Sign Up.](#my-account--login---sign-up)
 - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+- [Deployment & Local Development](#deployment---local-development)
+  * [Deployment](#deployment)
+- [DJANGO](#django)
+    + [How to Fork](#how-to-fork)
+    + [Login (or sign up) to GitHub.](#login--or-sign-up--to-github)
+    + [How to Clone](#how-to-clone)
+  * [Elephant SQL](#elephant-sql)
+  * [Heroku](#heroku)
+- [Testing](#testing)
+- [CSS](#css)
+- [HTML Testing](#html-testing)
+- [PEP8 TESTING](#pep8-testing)
+- [Languages](#languages)
 
 # User Experience UX
 
@@ -72,8 +104,9 @@ I’ve used the MoSCoW prioritisation technique for the user stories.
 - Could Have
 - Won’t Have
 
+Link to User Stories in Repository 
 
-
+https://github.com/users/sammaxfleet/projects/5/views/1
 
 
 ## EPICS/ MILESTONES  & USER STORIES
@@ -355,6 +388,9 @@ Edit Booking
 <img width="914" alt="Screenshot 2023-10-24 at 16 33 15" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6797f612-874e-4a14-8588-ee0ecd2e698f">
 
 
+
+
+
 # Frameworks - Libraries - Programs Used
 
 - Django: Main python framework used in the development of this project
@@ -381,6 +417,58 @@ Edit Booking
 ## Deployment
 This project was deployed to Heroku using the following steps.
 
+
+
+# DJANGO
+
+1. This project is built on the Django framework. Django can be installed by following the steps below:
+
+2. In your chosen IDE type the command: pip3 install django
+
+3. To create an name your project use the command: django-admin startproject <your_project_name> .
+
+4. A gitignore file is an important addition as you can specify which files should not be uploaded to the Github repo, such as database credentials.
+
+5. A gitignore file can be created in the CLI using the command: touch .gitignore
+
+6. To check django has been installed and your project created successfully, type the following command: python3 manage.py runserver
+
+7. Following the link provided in the CLI should display the Django landing page.
+
+8. Next, initial database migrations need to be completed. This can be achieved with the command: python3 manage.py migrate
+
+9. You can see the changes to be made without executing them with the command: python3 manage.py migrate --plan
+
+10. In order to have access to the admin panel, a superuser is required. This is created with the command: python3 manage.py createsuperuser
+
+11. This will then ask you to create a username and password with an optional email address.
+
+12. Once these steps are completed you can push your changes to Github using the commands below in order, or with the interface in your chosen IDE:
+
+git add .
+git commit -m "initial commit"
+git push
+
+
+Local Deployment - GitHub 
+
+
+### How to Fork
+To fork the Eponymous Bosch repository:
+
+### Login (or sign up) to GitHub.
+Go to the repository for this project, at GitHub Repository.
+Click the Fork button in the top right corner.
+
+### How to Clone
+To clone the Eponymous Bosch repository:
+
+Login (or sign up) to GitHub.
+Go to the repository for this project, at GitHub Repository.
+Above the list of files, click "Code".
+Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
+Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
+Click "Clone".
 
 ## Elephant SQL
 
@@ -418,47 +506,145 @@ This project was deployed to Heroku using the following steps.
 19. The app should be up and running now, so click the “Open app” button
 
 
-Local Deployment- 
-
-
-### How to Fork
-To fork the Eponymous Bosch repository:
-
-### Login (or sign up) to GitHub.
-Go to the repository for this project, at GitHub Repository.
-Click the Fork button in the top right corner.
-
-### How to Clone
-To clone the Eponymous Bosch repository:
-
-Login (or sign up) to GitHub.
-Go to the repository for this project, at GitHub Repository.
-Above the list of files, click "Code".
-Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
-Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
-Click "Clone".
 
 
 # Testing
 
-All CSS was checked with the
+# Fixing bugs
+When not logged in as a User the booking system will throw you to this page. 
+
+<img width="1414" alt="Screenshot 2023-10-27 at 19 22 52" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6e2112af-522d-443a-b82a-d7f62d79d79e">
+
+I fixed this by adding a looop that you're not able to book. 
+
+<img width="719" alt="Screenshot 2023-10-27 at 19 24 46" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/4ad800c5-b005-4e41-8ded-1f51fac3a33b">
+
+Error with Sign up, not accepting
+
+
+
+
+
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along. Both manual testing and validation was employed.
+
+I tested the page and had 3 people also manually test it on their own devices. For validation, I used the W3C validator, CSS validator, Python Linter, JSHint validator, and Lighthouse.
+
+
+
+# CSS 
+
 https://jigsaw.w3.org/css-validator/#validate_by_input
 
-BASE.CSS - NO ERRORS
-HOME.CSS - NO ERRORS
-ABOUT.CSS - NO ERRORS
-BOOK.CSS - NO ERRORS
-BOOKING.CSS - NO ERRORS
-IMAGE_MODAL.CSS - NO ERROS
-IMAGES.CSS - NO ERRORS
-LOGIN.CSS - NO ERRORS
-MODAL.CSS - NO ERRORS
-REGISTER.CSS - NO ERRORS
+BASE.CSS - NO ERRORS  <img width="1416" alt="Basecss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/49f974bb-b3f6-433a-a7c8-3a2ff303283d">
+HOME.CSS - NO ERRORS  <img width="1397" alt="homecss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/f7645b24-912d-485d-9f8c-c298f6034025">
+ABOUT.CSS - NO ERRORS <img width="1424" alt="AboutCSS" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/55ec1c24-7d18-44b1-b08d-6293ebcbbc0e">
+BOOK.CSS - NO ERRORS <img width="1428" alt="bookscss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/52a125a5-7e31-468a-8c63-2ea7968b00b8">
+BOOKING.CSS - NO ERRORS <img width="1416" alt="Bookingcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/cd92b45d-9e9d-4400-b2c5-128852060a83">
+IMAGE_MODAL.CSS - NO ERROS <img width="1407" alt="image_modalcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6adae505-a893-4a96-87fc-fdda8189a363">
+IMAGES.CSS - NO ERRORS <img width="1408" alt="imagescss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/1be8be81-a970-48a2-bbab-7a8674ee3beb">
+LOGIN.CSS - NO ERRORS <img width="1427" alt="LoginCSS" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d20ab5d8-3c8e-43af-85ff-7158d1dd4b89">
+MODAL.CSS - NO ERRORS <img width="1427" alt="modalcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e5734f27-4360-4e2c-ad66-8a4853358459">
+REGISTER.CSS - NO ERRORS <img width="1401" alt="registercss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/722717bb-c3f5-4654-859b-fde94e16e4ab">
 
 
-HTML NO ERRORS ONLY ON 1 PAGE WHICH SEEMS TO HAVE A PROBLEM WITH THE FOOTER I CAN'T GET RID OF - THE IMGS.HTML PAGE. 
 
-TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY. 
+
+
+# HTML Testing
+
+Checked with the html validator https://validator.w3.org/
+
+BASE.HTML - <img width="1418" alt="Basehtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/090b86ac-d658-48c3-ba39-0349f407fa23">
+ABOUT.HTML -<img width="1421" alt="About Html" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/de1077d4-1ef4-44e5-be3c-965321381e21">
+BOOKING.HTML - <img width="1427" alt="bookinghtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/46b7ee0c-7c75-4028-a970-323d4498a1f5">
+IMAGES.HTML - <img width="1411" alt="imageshtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/322fafee-7d04-46d2-91ea-56a25cf91bfc">
+CONTACT.HTML - <img width="1420" alt="Contacthtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/40254fd0-9d86-4f37-a9d2-10eb31370b64">
+REGISTER.HTML - <img width="1412" alt="signuphtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/134aa08a-016e-4338-82ea-23cd176d03ea">
+LOGIN.HTML - <img width="1415" alt="Loginhtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/327de153-82d0-48e3-b4b0-11abdc8690b6">
+BOOKINGSUCCESS.HTML - <img width="1422" alt="Bookingsuccesshtml " src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b5032b98-571a-40c1-a47a-081293899e6c">
+MYBOOKS.HTML - <img width="1400" alt="mybookshtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/2bfaa85a-41e8-4210-a483-809c4fc5f12d">
+BOOK.HTML - <img width="1387" alt="Bookhtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b3a98b2-597a-4a31-989f-01b432ede0e8">
+
+
+
+# PEP8 TESTING 
+
+https://pep8ci.herokuapp.com/ validator wass used 
+
+
+Main App: Lo Simple
+
+Wsgi.py
+Urls.py
+Settings.py
+Asgi.py
+
+
+APP: User
+
+Views.py <img width="1324" alt="user views" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/abf26865-dc45-4f5f-aadd-5ff93a072bb4">
+
+Urls.py  <img width="1214" alt="userurls" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b9d3a77c-bf23-413e-8485-e5f4eadee0e7">
+
+Tests.py <img width="1012" alt="UserTests" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/fb5dccbb-47e0-4277-b621-4f0de64c6f92">
+
+Models.py <img width="1171" alt="usermodels" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/eab1ec87-2cca-42d0-9484-f30b6f2e3da9">
+
+Forms.py <img width="1200" alt="userforms" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6e96071a-2ead-4ef3-a860-75340720bbcd">
+
+Apps.py  <img width="1269" alt="userapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3c4e4565-2361-4525-8ef0-bb1ffafc959d">
+
+Admin.py <img width="1276" alt="useradmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/6462896f-dd42-4f17-9ad2-d30af3ae3e4f">
+
+
+
+App: Home
+
+Views.py <img width="1390" alt="homeviews" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/f33fae36-128f-4b18-bec1-a03fc64a7a27">
+
+Urls.py <img width="1220" alt="Homeurls" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ff93880a-10e0-41aa-a9ea-ee40733718cf">
+
+Tests.py <img width="1255" alt="hometests" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/20ad3092-1db4-42ca-b87c-d066844f2fe3">
+
+Models.py <img width="1164" alt="Homemodels" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/243a41b8-8209-465e-a035-cbed02a196cf">
+
+Forms.py <img width="1318" alt="homeforms" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e6ee218a-0810-4a5c-bf35-da9d43535d2f">
+
+Apps.py <img width="1270" alt="homeapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3a764bd3-36c0-4225-abeb-3197109e3c5d">
+
+Admin.py <img width="1150" alt="homeadmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/5c499a30-99e5-4d5f-a08c-b986850c5062">
+
+
+
+App: Booking
+
+
+Views.py - <img width="1271" alt="Bookingviews" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/afaf9fe2-1d2b-479a-a8de-f2a8e1a6780e">
+
+Urls.py - <img width="1208" alt="bookingurls" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d06af304-a5f8-4751-aa3f-9b2acfb41286">
+
+
+Tests.py - <img width="1181" alt="Bookingtests" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d635fba0-d21a-478b-836b-98e5de36ae5b">
+
+
+Models.py - <img width="1169" alt="Bookingmodels" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e133b081-ec57-4972-88d1-e15742fa2db9">
+
+
+Apps.py - <img width="1188" alt="Bookingapps" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/40eb2aa5-d634-44d7-b544-e362da853bd5">
+
+Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3c209b6a-cf04-4d6d-b30e-7170a2870246">
+
+
+
+# JAVASCRIPT TESTING
+
+
+
+
+
+
+
+
 
 
 # Languages
@@ -468,3 +654,9 @@ TESTING PYTHON & JAVASCRIPT NEEDS TO BE DONE, RAN OUT OF TIME UNFORTUNATELY.
 - PYTHON
 - JAVASCRIPT
 
+
+# ThankYou
+
+
+Thanks to my mentor Rory who helped guide me through this project, the tutors at code institute & all the course material.
+This is my submission for Django Portfolio Project 4. 
