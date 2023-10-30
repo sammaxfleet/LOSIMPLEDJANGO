@@ -1,4 +1,4 @@
-
+// jshint esversion: 6
 document.addEventListener('DOMContentLoaded', function () {
     // Get the modal element
     const modal = document.getElementById('imageModal');
