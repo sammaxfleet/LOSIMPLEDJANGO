@@ -3,6 +3,7 @@
 ## Things worked on since last submitt 
 
 - Sign Up page disappears once logged in.
+- If not signed in User gets redirected to login page when trying to book. 
 - CRUD functionality for the user once logged in with the 'My Profile' Page being and to edite or delete profile. 
 - Booking system Functionality, preventing double booking or being able to book on previous dates.
 - 'My Booking page' enabling the user to edit bookings with the CRUD function.
@@ -11,7 +12,6 @@
 - More regular and clearer commits
 - User stories in the Repository with Milestones.
 - Cleaned up some Design Features, especially with the booking system. 
-
 
 
 # Site Description:
@@ -540,7 +540,7 @@ I tested the page and had 3 people also manually test it on their own devices. F
 
 
 
-# CSS 
+# CSS Testing
 
 https://jigsaw.w3.org/css-validator/#validate_by_input
 
@@ -554,12 +554,14 @@ IMAGES.CSS - NO ERRORS <img width="1408" alt="imagescss" src="https://github.com
 LOGIN.CSS - NO ERRORS <img width="1427" alt="LoginCSS" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/d20ab5d8-3c8e-43af-85ff-7158d1dd4b89">
 MODAL.CSS - NO ERRORS <img width="1427" alt="modalcss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/e5734f27-4360-4e2c-ad66-8a4853358459">
 REGISTER.CSS - NO ERRORS <img width="1401" alt="registercss" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/722717bb-c3f5-4654-859b-fde94e16e4ab">
+MYPROFILE.CSS- NO ERRORS <img width="1432" alt="Screenshot 2023-10-30 at 08 43 27" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/4bf114f8-577b-4af2-8c03-6335593a6871">
 
 
 
 
+# HTML Testing 
 
-# HTML Testing
+No Errors
 
 Checked with the html validator https://validator.w3.org/
 
@@ -573,10 +575,12 @@ LOGIN.HTML - <img width="1415" alt="Loginhtml" src="https://github.com/sammaxfle
 BOOKINGSUCCESS.HTML - <img width="1422" alt="Bookingsuccesshtml " src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/b5032b98-571a-40c1-a47a-081293899e6c">
 MYBOOKS.HTML - <img width="1400" alt="mybookshtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/2bfaa85a-41e8-4210-a483-809c4fc5f12d">
 BOOK.HTML - <img width="1387" alt="Bookhtml" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/7b3a98b2-597a-4a31-989f-01b432ede0e8">
-
+MYPROFILE.HTML <img width="1403" alt="Screenshot 2023-10-30 at 09 04 29" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/8e803ab4-d1c8-4070-90ad-748bb78a0c52">
 
 
 # PEP8 TESTING 
+
+No Errors
 
 https://pep8ci.herokuapp.com/ validator wass used 
 
@@ -649,8 +653,10 @@ Admin.py - <img width="1130" alt="BookingsAdmin" src="https://github.com/sammaxf
 
 The JS was tested using JSHINT https://jshint.com/
 
+Image_Modal.js - <img width="1052" alt="Screenshot 2023-10-30 at 09 13 42" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/36b98248-60da-46a8-b82c-6bb8706c450b">
 
 
+Modal.js - <img width="1031" alt="Screenshot 2023-10-30 at 09 13 09" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ef6252e3-dfdc-4545-8804-dfe344da8ee1">
 
 
 
