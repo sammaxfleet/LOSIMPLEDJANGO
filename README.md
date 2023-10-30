@@ -585,13 +585,6 @@ No Errors
 https://pep8ci.herokuapp.com/ validator wass used 
 
 
-Main App: Lo Simple
-
-Wsgi.py
-Urls.py
-Settings.py
-Asgi.py
-
 
 APP: User
 
@@ -657,9 +650,6 @@ Image_Modal.js - <img width="1052" alt="Screenshot 2023-10-30 at 09 13 42" src="
 
 
 Modal.js - <img width="1031" alt="Screenshot 2023-10-30 at 09 13 09" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/ef6252e3-dfdc-4545-8804-dfe344da8ee1">
-
-
-
 
 
 
