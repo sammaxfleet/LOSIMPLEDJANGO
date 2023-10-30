@@ -27,11 +27,11 @@ A live link to follow to the site can be found here - https://lo-simple-airbnb-1
 Am I Responsive link : <img width="1007" alt="Screenshot 2023-10-27 at 15 21 16" src="https://github.com/sammaxfleet/LOSIMPLEDJANGO/assets/114914739/3bc09343-e8a3-4615-bdd9-d38a52a341e6">
 
 
-
-
-# TABLE OF CONTENTS
+#Tabke Of Contents
 
 - [LO SIMPLE](#lo-simple)
+  * [Things worked on since last submitt](#things-worked-on-since-last-submitt)
+- [Site Description:](#site-description-)
 - [User Experience UX](#user-experience-ux)
   * [AGILE METHODOLOGY](#agile-methodology)
   * [EPICS/ MILESTONES  & USER STORIES](#epics--milestones----user-stories)
@@ -63,20 +63,29 @@ Am I Responsive link : <img width="1007" alt="Screenshot 2023-10-27 at 15 21 16"
   * [Images Page](#images-page)
   * [Contact Page](#contact-page)
   * [My Account- Login & Sign Up.](#my-account--login---sign-up)
+  * [Login Page](#login-page)
+  * [Added Pages](#added-pages)
+  * [Edit Booking](#edit-booking)
+  * [My Profile](#my-profile)
 - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
 - [Deployment & Local Development](#deployment---local-development)
   * [Deployment](#deployment)
 - [DJANGO](#django)
+- [Local Deployment - GitHub](#local-deployment---github)
     + [How to Fork](#how-to-fork)
     + [Login (or sign up) to GitHub.](#login--or-sign-up--to-github)
     + [How to Clone](#how-to-clone)
   * [Elephant SQL](#elephant-sql)
   * [Heroku](#heroku)
 - [Testing](#testing)
-- [CSS](#css)
+- [Fixing bugs](#fixing-bugs)
+- [CSS Testing](#css-testing)
 - [HTML Testing](#html-testing)
 - [PEP8 TESTING](#pep8-testing)
+- [JAVASCRIPT TESTING](#javascript-testing)
 - [Languages](#languages)
+- [ThankYou & Acknowledgement](#thankyou---acknowledgement)
+
 
 # User Experience UX
 
